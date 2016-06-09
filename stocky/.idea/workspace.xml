@@ -1,0 +1,1574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9627e2d-c2ba-42a5-abe8-1fde2dcbf948" name="Default" comment="executive page added">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/data0/images/Baburam.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/DocService$_documentUpload_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/DocService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/Document$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/Document.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/ExecutiveController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/Form$__clinit__closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/Form.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/FormService$_formUpload_closure1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/classes/stocky/FormService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/data0/images/JeffG.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/data0/images/RudraP.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/data0/images/blooddonation.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/images/deerwalk-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/data0/images/group.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/js/app-script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/bootstrap-3.3.6-dist/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/js/jquery-1.12.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/css/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/calender/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/calender/responsive-calendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/engine0/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/engine0/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/js/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/work/tomcat/work/Tomcat/localhost/Stocky/grails-resources/engine0/wowslider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/AggregatedResourceMeta.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/AggregatedResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ApplicationResources.class" afterPath="$PROJECT_DIR$/target/classes/ApplicationResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/AuthorWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/AuthorizedCapitalValue.class" afterPath="$PROJECT_DIR$/target/classes/stocky/AuthorizedCapitalValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/AuthorizedCapitalValueController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/AuthorizedCapitalValueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/AuthorizedCapitalValueService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/AuthorizedCapitalValueService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/BaseUrlResourceMapper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/BaseUrlResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BootStrap.class" afterPath="$PROJECT_DIR$/target/classes/BootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig$_run_closure1_closure5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/BuildConfig.class" afterPath="$PROJECT_DIR$/target/classes/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/BundleResourceMapper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/BundleResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSBundleResourceMeta.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSBundleResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSLinkProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSLinkProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSPreprocessorResourceMapper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSPreprocessorResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSRewriterResourceMapper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/CSSRewriterResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/CacheGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/CacheTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ChangeDesign.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ChangeDesign.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ChangeDesignController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ChangeDesignController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ChangeLogWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ChangeLogoService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ChangeLogoService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ChangelogXml2Groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/ColumnWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/Config.class" afterPath="$PROJECT_DIR$/target/classes/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/ConfigLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/DataSource.class" afterPath="$PROJECT_DIR$/target/classes/DataSource.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DatabaseMigrationGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DbdocController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DbdocUrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultCacheConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultSecurityConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/DefaultWebXmlConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/DevModeSanityFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/DevModeSanityFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/DispositionsUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/DispositionsUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/DocumentController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/DocumentController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/DocumentService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/DocumentService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/DslBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/EmployeeController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/EmployeeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ExecutiveReportService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ExecutiveReportService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/webxml/FilterManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/ForkedTomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/FormController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/FormController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormColumn.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseSnapshotGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDatabaseTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GormDiff.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/web/authentication/rememberme/GormPersistentTokenRepository.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/userdetails/GormUserDetailsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/cache/GrailsCacheAdminService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChange.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsChangeLogParser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsClassLoaderResourceAccessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsDiffStatusListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/GrailsMailException.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/GrailsMailException.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GrailsPrecondition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/GroovyAwareStringChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/HTMLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/HalfBakedLegacyLinkGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/HalfBakedLegacyLinkGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/HibernateAwareTypeConverter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/HibernateGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/HibernateGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/hibernate3/HibernatePluginSupport.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/hibernate3/HibernatePluginSupport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/HomeController$_investors_closure2.class" afterPath="$PROJECT_DIR$/target/classes/stocky/HomeController$_investors_closure2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/HomeController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/HomeController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/IdeaPrintProjectSettings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ImageController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ImageController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ImageUploadService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ImageUploadService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/InlineExplodedTomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/InterceptedUrl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/IssuedCapitalValue.class" afterPath="$PROJECT_DIR$/target/classes/stocky/IssuedCapitalValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/IssuedCapitalValueController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/IssuedCapitalValueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/IssuedCapitalValueService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/IssuedCapitalValueService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryPluginResources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/codehaus/groovy/grails/plugins/jquery/JQueryProvider.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JQueryTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/JavaScriptBundleResourceMeta.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/JavaScriptBundleResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/JqueryGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/LinkedProperties.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/ListEnumeration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/LogoutController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/LogoutController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/LogoutController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/MailGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/MailGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageBuilderFactory.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageBuilderFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageContentRender.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageContentRender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageContentRenderer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailMessageContentRenderer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/MailService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/mapper/MapperPhase.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/mapper/MapperPhase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/MemoryDocVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MigrationUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/Minute.class" afterPath="$PROJECT_DIR$/target/classes/stocky/Minute.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/MinuteController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/MinuteController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/MinuteService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/MinuteService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleDeclarationsFactory.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/module/ModuleDeclarationsFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/module/ModulesBuilder.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/module/ModulesBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MySQLCompatibleChangeLogSerializer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/MysqlAwareCreateTableGenerator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/News.class" afterPath="$PROJECT_DIR$/target/classes/stocky/News.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/NewsController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/NewsController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/NewsService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/NewsService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/NoopVisitor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/PaidCapitalValue.class" afterPath="$PROJECT_DIR$/target/classes/stocky/PaidCapitalValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/PaidCapitalValueController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/PaidCapitalValueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/PaidCapitalValueService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/PaidCapitalValueService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/PendingSQLWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/PlainTextMailTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/mail/PlainTextMailTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ProcessingFilter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ProcessingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/RecentChangesWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/ReflectionUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ReportController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ReportController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMapper.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMappersFactory.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/mapper/ResourceMappersFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceMeta.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceMeta.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/ResourceMetaStore.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/ResourceMetaStore.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceModule.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceModule.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessor.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessorBatch.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceProcessorBatch.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/ResourceTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ResourcesBootStrap.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ResourcesBootStrap.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/ResourcesGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/ResourcesGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/Role.class" afterPath="$PROJECT_DIR$/target/classes/stocky/Role.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/ScriptUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SecurityTagLib.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/Share.class" afterPath="$PROJECT_DIR$/target/classes/stocky/Share.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareValue.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareValue.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareValueController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareValueController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareValueService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareValueService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/Shareholder.class" afterPath="$PROJECT_DIR$/target/classes/stocky/Shareholder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareholderController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareholderController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/ShareholderService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/ShareholderService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/Slf4jLogger.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/SpringSecurityCoreGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/springsecurity/SpringSecurityService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/StakeValueService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/StakeValueService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/StatsManager.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/util/StatsManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableListWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/grails/plugin/databasemigration/dbdoc/TableWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatDevelopmentRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatExecutionContext.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/TomcatGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatLoader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/TomcatServerFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" afterPath="$PROJECT_DIR$/target/work/plugin-build-classes/org/grails/plugins/tomcat/fork/TomcatWarRunner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/URLUtils.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/org/grails/plugin/resource/URLUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings$__clinit__closure1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/UrlMappings.class" afterPath="$PROJECT_DIR$/target/classes/UrlMappings.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/User.class" afterPath="$PROJECT_DIR$/target/classes/stocky/User.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/UserController.class" afterPath="$PROJECT_DIR$/target/classes/stocky/UserController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/UserRole.class" afterPath="$PROJECT_DIR$/target/classes/stocky/UserRole.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/stocky/UserService.class" afterPath="$PROJECT_DIR$/target/classes/stocky/UserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" afterPath="$PROJECT_DIR$/target/work/plugin-classes/WebxmlGrailsPlugin.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsArgParsing_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsArgParsing_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsClasspath_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsClasspath_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsClean_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsClean_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCompile_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsCompile_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsEvents_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsEvents_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsInit_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsInit_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsPackage_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsPackage_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsProxy_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsProxy_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsRun_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsRun_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsSettings_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsSettings_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_GrailsWar_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_GrailsWar_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_PackagePlugins_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_PackagePlugins_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/scriptCache/_PluginDependencies_groovy.class" afterPath="$PROJECT_DIR$/target/work/scriptCache/_PluginDependencies_groovy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/resources.class" afterPath="$PROJECT_DIR$/target/classes/resources.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/AbstractFilter.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/AbstractFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/AlreadyGzippedException.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/AlreadyGzippedException.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/BlockingCache.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/BlockingCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" afterPath="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheBeanPostProcessor.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheBeanPostProcessor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheConfigArtefactHandler.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheConfigArtefactHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheConfiguration.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheEvict.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CacheEvict.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/CacheExpressionRootObject.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/CacheExpressionRootObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/CacheGrailsPlugin.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/CacheGrailsPlugin.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/CacheOperationContext.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/CacheOperationContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CachePut.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CachePut.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/grails-app/taglib/grails/plugin/cache/CacheTagLib.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/grails-app/taglib/grails/plugin/cache/CacheTagLib.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/compiler/CacheTransformation.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/compiler/CacheTransformation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/Cacheable.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/Cacheable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/util/ClassUtils.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/util/ClassUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/groovy/grails/plugin/cache/ConfigBuilder.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/groovy/grails/plugin/cache/ConfigBuilder.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/groovy/grails/plugin/cache/ConfigLoader.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/groovy/grails/plugin/cache/ConfigLoader.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/ContentCacheParameters.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/ContentCacheParameters.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CustomCacheKeyGenerator.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/CustomCacheKeyGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/grails-app/conf/DefaultCacheConfig.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/grails-app/conf/DefaultCacheConfig.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/DefaultWebKeyGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/ExpressionEvaluator.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/ExpressionEvaluator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/FilterServletOutputStream.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/FilterServletOutputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/GenericResponseWrapper.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/GenericResponseWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsAnnotationCacheOperationSource.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsAnnotationCacheOperationSource.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsCache.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/grails-app/services/grails/plugin/cache/GrailsCacheAdminService.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/grails-app/services/grails/plugin/cache/GrailsCacheAdminService.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsCacheManager.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsConcurrentMapCache.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsConcurrentMapCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsConcurrentMapCacheManager.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsConcurrentMapCacheManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsValueWrapper.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/GrailsValueWrapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/Header.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/Header.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/controllers/stocky/HomeController.groovy" afterPath="$PROJECT_DIR$/grails-app/controllers/stocky/HomeController.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/HttpDateFormatter.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/HttpDateFormatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/LazyParamAwareEvaluationContext.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/simple/MemoryBlockingCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/simple/MemoryCacheConfiguration.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/simple/MemoryPageFragmentCachingFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/NoOpFilter.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/NoOpFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/PageFragmentCachingFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/PageInfo.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/PageInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/ProxyAwareMixedGrailsControllerHelper.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/ProxyAwareMixedGrailsControllerHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/SerializableByteArrayOutputStream.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/SerializableByteArrayOutputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/SerializableCookie.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/SerializableCookie.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/SerializableOutputStream.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/SerializableOutputStream.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/Timer.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/Timer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/WebKeyGenerator.java" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/src/java/grails/plugin/cache/web/filter/WebKeyGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/layouts/_header.gsp" afterPath="$PROJECT_DIR$/grails-app/views/layouts/_header.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grails-app/views/adminView/admin-landing.gsp" afterPath="$PROJECT_DIR$/grails-app/views/adminView/admin-landing.gsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/application.properties" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/dependencies.groovy" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/dependencies.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/plugin.xml" afterPath="$PROJECT_DIR$/target/work/plugins/cache-1.1.1/plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/stacktrace.log" afterPath="$PROJECT_DIR$/target/stacktrace.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stocky-grailsPlugins.iml" afterPath="$PROJECT_DIR$/stocky-grailsPlugins.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stocky.iml" afterPath="$PROJECT_DIR$/stocky.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-app/css/style.css" afterPath="$PROJECT_DIR$/web-app/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/work/resources/web.xml" afterPath="$PROJECT_DIR$/target/work/resources/web.xml" />
+    </list>
+    <ignored path="stocky.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$USER_HOME$/.grails/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="stocky" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="admin-landing.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/admin-landing.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.7346939" vertical-offset="0" max-vertical-offset="5389">
+              <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="28" />
+              <folding>
+                <marker date="1465442892081" expanded="true" signature="746:1526" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="4423:5851" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="4542:4813" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="4850:5015" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="6670:7132" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="7493:7999" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="8351:8841" placeholder="..." />
+                <marker date="1465442892081" expanded="true" signature="9194:9679" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExecutiveController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ExecutiveController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.9130435" vertical-offset="0" max-vertical-offset="289">
+              <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="executiveLandingPage.gsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/executive/executiveLandingPage.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.571428" vertical-offset="0" max-vertical-offset="969">
+              <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-app/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8554" max-vertical-offset="9605">
+              <caret line="516" column="1" selection-start-line="516" selection-start-column="1" selection-end-line="516" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_header.gsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_header.gsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5771812" vertical-offset="1936" max-vertical-offset="5933">
+              <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/HomeController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.086957" vertical-offset="578" max-vertical-offset="2057">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuildConfig.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1513">
+              <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+              <folding>
+                <marker date="1465442892048" expanded="true" signature="2422:2961" placeholder="{...}" />
+                <marker date="1465442892048" expanded="true" signature="3029:3736" placeholder="{...}" />
+                <marker date="1465442892048" expanded="true" signature="3188:3218" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizedCapitalValue.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/domain/stocky/AuthorizedCapitalValue.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="272">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizedCapitalValueController.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/AuthorizedCapitalValueController.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="459">
+              <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthorizedCapitalValueService.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/grails-app/services/stocky/AuthorizedCapitalValueService.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="459">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/grails-app/controllers/stocky/ReportController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/report/executiveSummary.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/report/_individual.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BootStrap.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/stocky/ChangeDesignController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/adminView/user/additionalInfo.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/views/adminView/user/additonalInfo.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/domain/stocky/AuthorizedCapitalValue.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/domain/stocky/PaidCapitalValue.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/stocky/ShareController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/Employee/Employee-landingpage.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/stocky/ExecutiveController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/adminView/minute/addMinute.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/stocky/UserController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/adminView/admin-landing.gsp" />
+        <option value="$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/controllers/stocky/HomeController.groovy" />
+        <option value="$PROJECT_DIR$/grails-app/views/executive/executiveLandingPage.gsp" />
+        <option value="$PROJECT_DIR$/web-app/css/style.css" />
+        <option value="$PROJECT_DIR$/grails-app/views/layouts/_header.gsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
+  </component>
+  <component name="RunManager" selected="Grails.Grails:stocky">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Grails:stocky" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="stocky" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Grails.Grails:stocky" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9627e2d-c2ba-42a5-abe8-1fde2dcbf948" name="Default" comment="" />
+      <created>1465218282004</created>
+      <option name="number" value="Default" />
+      <updated>1465218282004</updated>
+      <workItem from="1465218285721" duration="4776000" />
+      <workItem from="1465287050661" duration="5102000" />
+      <workItem from="1465374727417" duration="16559000" />
+      <workItem from="1465399535973" duration="37000" />
+      <workItem from="1465441257396" duration="7085000" />
+    </task>
+    <task id="LOCAL-00001" summary="Document Controller added">
+      <created>1465218895331</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1465218895331</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Employee, Form, Home, News, Report, Shareholder, User Controller added">
+      <created>1465219109722</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219109722</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Document domain added">
+      <created>1465219220735</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219220735</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Form domain added">
+      <created>1465219258682</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219258682</updated>
+    </task>
+    <task id="LOCAL-00005" summary="issuedCapitalVaue added">
+      <created>1465219288645</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219288645</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Share domain added">
+      <created>1465219322351</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219322351</updated>
+    </task>
+    <task id="LOCAL-00007" summary="updated">
+      <created>1465219354214</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219354214</updated>
+    </task>
+    <task id="LOCAL-00008" summary="updated">
+      <created>1465219392464</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219392464</updated>
+    </task>
+    <task id="LOCAL-00009" summary="FormService added">
+      <created>1465219420581</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219420581</updated>
+    </task>
+    <task id="LOCAL-00010" summary="UserService updated">
+      <created>1465219449469</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219449469</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated on admin-landing page">
+      <created>1465219628343</created>
+      <option name="number" value="00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219628343</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add-news page added">
+      <created>1465219708362</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219708362</updated>
+    </task>
+    <task id="LOCAL-00013" summary="shareholder-profile page added">
+      <created>1465219744592</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219744593</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add-share page added">
+      <created>1465219766250</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219766250</updated>
+    </task>
+    <task id="LOCAL-00015" summary="adminForm page added">
+      <created>1465219805325</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219805325</updated>
+    </task>
+    <task id="LOCAL-00016" summary="document page added">
+      <created>1465219826978</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219826978</updated>
+    </task>
+    <task id="LOCAL-00017" summary="employee-landing page updated">
+      <created>1465219864625</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219864625</updated>
+    </task>
+    <task id="LOCAL-00018" summary="updates">
+      <created>1465219897028</created>
+      <option name="number" value="00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1465219897028</updated>
+    </task>
+    <task id="LOCAL-00019" summary="final">
+      <created>1465220228594</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1465220228595</updated>
+    </task>
+    <task id="LOCAL-00020" summary="admin-landing page updated">
+      <created>1465220376120</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1465220376120</updated>
+    </task>
+    <task id="LOCAL-00021" summary="updated">
+      <created>1465221443277</created>
+      <option name="number" value="00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1465221443277</updated>
+    </task>
+    <task id="LOCAL-00022" summary="login error message updated">
+      <created>1465222124709</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1465222124709</updated>
+    </task>
+    <task id="LOCAL-00023" summary="logo for empty updated">
+      <created>1465222765894</created>
+      <option name="number" value="00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1465222765894</updated>
+    </task>
+    <task id="LOCAL-00024" summary="new push">
+      <created>1465287767263</created>
+      <option name="number" value="00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1465287767263</updated>
+    </task>
+    <task id="LOCAL-00025" summary="new push">
+      <created>1465375045039</created>
+      <option name="number" value="00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375045039</updated>
+    </task>
+    <task id="LOCAL-00026" summary="zone">
+      <created>1465375229926</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375229926</updated>
+    </task>
+    <task id="LOCAL-00027" summary="variable name changed">
+      <created>1465375956904</created>
+      <option name="number" value="00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375956904</updated>
+    </task>
+    <task id="LOCAL-00028" summary="variable name changed">
+      <created>1465375990857</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1465375990857</updated>
+    </task>
+    <task id="LOCAL-00029" summary="minor changes">
+      <created>1465377028774</created>
+      <option name="number" value="00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1465377028774</updated>
+    </task>
+    <task id="LOCAL-00030" summary="minute edit and delete button">
+      <created>1465387546910</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1465387546910</updated>
+    </task>
+    <task id="LOCAL-00031" summary="minute edit and delete button">
+      <created>1465387853464</created>
+      <option name="number" value="00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1465387853464</updated>
+    </task>
+    <task id="LOCAL-00032" summary="minute edit and delete button">
+      <created>1465388238387</created>
+      <option name="number" value="00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1465388238387</updated>
+    </task>
+    <task id="LOCAL-00033" summary="executive page added">
+      <created>1465442834633</created>
+      <option name="number" value="00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1465442834633</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33559000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.274276" sideWeight="0.2193646" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48722318" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Grails View" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19591528" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3781942" sideWeight="0.7806354" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18532526" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Document domain added" />
+    <MESSAGE value="Form domain added" />
+    <MESSAGE value="issuedCapitalVaue added" />
+    <MESSAGE value="Share domain added" />
+    <MESSAGE value="FormService added" />
+    <MESSAGE value="UserService updated" />
+    <MESSAGE value="updated on admin-landing page" />
+    <MESSAGE value="add-news page added" />
+    <MESSAGE value="shareholder-profile page added" />
+    <MESSAGE value="add-share page added" />
+    <MESSAGE value="adminForm page added" />
+    <MESSAGE value="document page added" />
+    <MESSAGE value="employee-landing page updated" />
+    <MESSAGE value="updates" />
+    <MESSAGE value="final" />
+    <MESSAGE value="admin-landing page updated" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="login error message updated" />
+    <MESSAGE value="logo for empty updated" />
+    <MESSAGE value="new push" />
+    <MESSAGE value="zone" />
+    <MESSAGE value="variable name changed" />
+    <MESSAGE value="minor changes" />
+    <MESSAGE value="minute edit and delete button" />
+    <MESSAGE value="executive page added" />
+    <option name="LAST_COMMIT_MESSAGE" value="executive page added" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/user/additionalInfo.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="9248">
+          <caret line="40" column="98" selection-start-line="40" selection-start-column="98" selection-end-line="40" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/report/executiveSummary.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2091">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/gallery.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/admin-landing.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3469" max-vertical-offset="5389">
+          <caret line="169" column="110" selection-start-line="169" selection-start-column="110" selection-end-line="169" selection-end-column="110" />
+          <folding>
+            <marker date="1465442892081" expanded="true" signature="746:1526" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="4423:5851" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="4542:4813" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="4850:5015" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="6670:7132" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="7493:7999" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="8351:8841" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="9194:9679" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ReportController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="2210">
+          <caret line="63" column="152" selection-start-line="63" selection-start-column="152" selection-end-line="63" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/report/_individual.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1224">
+          <caret line="58" column="71" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_header.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4199">
+          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ChangeDesignController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2346" max-vertical-offset="3706">
+          <caret line="148" column="59" selection-start-line="148" selection-start-column="59" selection-end-line="148" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/report/executiveSummary.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2091">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/event.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1530">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/gallery.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/shareholder/shareholderForm.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="548">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/shareholder/shareholderMinute.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.122449" vertical-offset="153" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/shareholder/shareholderView.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.510204" vertical-offset="306" max-vertical-offset="2890">
+          <caret line="80" column="38" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/error.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="408">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/event.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1530">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/gallery.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2295">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/report/executiveSummary.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2091">
+          <caret line="39" column="34" selection-start-line="39" selection-start-column="34" selection-end-line="39" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ReportController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="852" max-vertical-offset="2210">
+          <caret line="63" column="152" selection-start-line="63" selection-start-column="152" selection-end-line="63" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/report/_individual.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1224">
+          <caret line="58" column="71" selection-start-line="58" selection-start-column="71" selection-end-line="58" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BootStrap.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="663">
+          <caret line="23" column="44" selection-start-line="23" selection-start-column="44" selection-end-line="23" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ChangeDesignController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="867">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/user/additionalInfo.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="9248">
+          <caret line="40" column="98" selection-start-line="40" selection-start-column="98" selection-end-line="40" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/stocky/PaidCapitalValue.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2830188" vertical-offset="0" max-vertical-offset="255">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ShareController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4347825" vertical-offset="51" max-vertical-offset="663">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/stocky/IssuedCapitalValue.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6415094" vertical-offset="0" max-vertical-offset="272">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/Config.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/js/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.527728" vertical-offset="1413" max-vertical-offset="1972">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/FormController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9565217" vertical-offset="0" max-vertical-offset="680">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/WEB-INF/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <caret line="12" column="50" selection-start-line="12" selection-start-column="50" selection-end-line="12" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/user/additonalInfo.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="10.061225" vertical-offset="1071" max-vertical-offset="2040">
+          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/home.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_footer.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/main.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/add-news.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.979592" vertical-offset="880" max-vertical-offset="1683">
+          <caret line="69" column="33" selection-start-line="69" selection-start-column="33" selection-end-line="69" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/minute/addMinute.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.163265" vertical-offset="1156" max-vertical-offset="1819">
+          <caret line="126" column="42" selection-start-line="126" selection-start-column="42" selection-end-line="126" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/Employee/Employee-landingpage.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="952">
+          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/UserController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="3621">
+          <caret line="136" column="19" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/domain/stocky/AuthorizedCapitalValue.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="272">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="org.jetbrains.plugins.grails.perspectives.DomainClassesRelationsEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/AuthorizedCapitalValueController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="459">
+          <caret line="12" column="59" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/services/stocky/AuthorizedCapitalValueService.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/conf/BuildConfig.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="914" max-vertical-offset="1513">
+          <caret line="68" column="30" selection-start-line="68" selection-start-column="30" selection-end-line="68" selection-end-column="30" />
+          <folding>
+            <marker date="1465442892048" expanded="true" signature="2422:2961" placeholder="{...}" />
+            <marker date="1465442892048" expanded="true" signature="3029:3736" placeholder="{...}" />
+            <marker date="1465442892048" expanded="true" signature="3188:3218" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/adminView/admin-landing.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7346939" vertical-offset="0" max-vertical-offset="5389">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <marker date="1465442892081" expanded="true" signature="746:1526" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="4423:5851" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="4542:4813" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="4850:5015" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="6670:7132" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="7493:7999" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="8351:8841" placeholder="..." />
+            <marker date="1465442892081" expanded="true" signature="9194:9679" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/ExecutiveController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.9130435" vertical-offset="0" max-vertical-offset="289">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/executive/executiveLandingPage.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.571428" vertical-offset="0" max-vertical-offset="969">
+          <caret line="42" column="30" selection-start-line="42" selection-start-column="30" selection-end-line="42" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-app/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8554" max-vertical-offset="9605">
+          <caret line="516" column="1" selection-start-line="516" selection-start-column="1" selection-end-line="516" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/controllers/stocky/HomeController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.086957" vertical-offset="578" max-vertical-offset="2057">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/grails-app/views/layouts/_header.gsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5771812" vertical-offset="1936" max-vertical-offset="5933">
+          <caret line="124" column="61" selection-start-line="124" selection-start-column="61" selection-end-line="124" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="grailsSettings">
+    <option name="map">
+      <map>
+        <entry key="stocky">
+          <value>
+            <GrailsSettings>
+              <option name="buildConfigCrc" value="551347707" />
+              <option name="pluginDependenciesCrc" value="-1581543884" />
+              <option name="properties">
+                <map>
+                  <entry key="grails.global.plugins.dir" value="C:\Users\Pratik\.grails\2.3.5\global-plugins" />
+                  <entry key="grails.project.plugins.dir" value="target\work\plugins" />
+                  <entry key="grails.project.work.dir" value="target\work" />
+                  <entry key="grails.work.dir" value="C:\Users\Pratik\.grails\2.3.5" />
+                </map>
+              </option>
+            </GrailsSettings>
+          </value>
+        </entry>
+        <entry key="stocky-grailsPlugins">
+          <value>
+            <GrailsSettings />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>grails-2.3.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>stocky</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
