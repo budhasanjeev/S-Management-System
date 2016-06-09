@@ -126,8 +126,8 @@
             <div>
                 <ul class="onHoverButton">
                     <li>
-                        <button class="btn standard-button" data-toggle="modal" data-target="#editMinute">Edit</button>
-                        <button class="btn standard-button">Delete</button>
+                        <button class="btn standard-button" data-toggle="modal" data-target="#editMinute"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+                        <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button>
                     </li>
                 </ul>
             </div>
