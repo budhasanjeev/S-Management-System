@@ -68,25 +68,45 @@
 
     <div class="row"></div>
 
-<div id="left-news-content" class="row">
+%{--<div id="left-news-content" class="row">--}%
 
 
-<g:each in="${formList}" var="f">
+%{--<g:each in="${formList}" var="f">--}%
 
-    <div class="col-lg-5 highlight" style="height: 160px;">
-        <div class="col-md-4">
-            <img class="user-photo img-circle" src="${createLink(controller:'form', action:'getFormImage', params: [fileName:f.formDoc])}" alt="Form"/>
+    %{--<div class="col-lg-5 highlight" style="height: 160px;">--}%
+        %{--<div class="col-md-4">--}%
+            %{--<img class="user-photo img-circle" src="${createLink(controller:'form', action:'getFormImage', params: [fileName:f.formDoc])}" alt="Form"/>--}%
+        %{--</div>--}%
+        %{--<div class="col-md-8">--}%
+            %{--<h2>${f.title}</h2>--}%
+            %{--<g:link controller="form" action="downloadForm"><button>Download</button></g:link>--}%
+        %{--</div>--}%
+
+    %{--</div>--}%
+
+%{--</g:each>--}%
+
+%{--</div>--}%
+
+    <div class="row"></div>
+
+    <g:each in="${formList}" var="f">
+        <div class="col-lg-5 highlight minute">
+            <div>
+                <ul class="onHoverButton">
+                    <li>
+                        <button class="btn standard-button">Download</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4 itemCenter" style="height: 100%;">
+                <img style="height: 60px; width: 130px;" src="${createLink(controller:'form', action:'getFormImage', params: [fileName:f.formDoc])}" alt="Form"/>
+            </div>
+            <div class="col-lg-8">
+                <h3>${f.title}</h3>
+            </div>
         </div>
-        <div class="col-md-8">
-            <h2>${f.title}</h2>
-            <g:link controller="form" action="downloadForm"><button>Download</button></g:link>
-        </div>
-
-    </div>
-
-</g:each>
-
-</div>
+    </g:each>
 
 </div>
 </body>
