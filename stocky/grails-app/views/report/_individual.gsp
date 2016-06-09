@@ -51,16 +51,28 @@
                     </g:each>
                 </ul>
             </td>
-            <td></td>
+            <td>
+                <ul>
+                    <g:each in="${shareInfoLists[i]}" var="cList" status="n">
+                        <li>${shareInfoLists[i][n].shareEnd}</li>
+                    </g:each>
+                </ul>
+            </td>
             <td>${u?.mobileNumber}</td>
             <td>${u?.email}</td>
             <td>${additionalInfoLists[i].fatherName}</td>
             <td>${additionalInfoLists[i].grandFatherName}</td>
             <td>${additionalInfoLists[i].city},${additionalInfoLists[i].district}</td>
             <td>${additionalInfoLists[i].citizenshipNo}</td>
-            <td>${[shareInfoLists[i].size -1].shareAmount}</td>
+            <td>${shareInfoLists[i][shareInfoLists.size-1].shareAmount}</td>
         </tr>
     </g:each>
 
     </tbody>
 </table>
+
+<style>
+    table{
+        font-size: 10px;
+    }
+</style>
