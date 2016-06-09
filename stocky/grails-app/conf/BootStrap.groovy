@@ -27,6 +27,7 @@ class BootStrap {
         new File("upload/document").mkdir()
         new File("upload/news").mkdir()
         new File("upload/logo").mkdir()
+        new File("upload/form").mkdir()
         new File("report").mkdir()
     }
 
