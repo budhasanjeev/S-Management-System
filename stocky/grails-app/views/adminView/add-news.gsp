@@ -79,7 +79,7 @@
                        <div>
                            <ul>
                                <li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></li>
-                               <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-pencil-list-alt"></span>&nbsp;&nbsp;Edit</button></li>
+                               <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Edit</button></li>
                            </ul>
                        </div>
                        <a href= "${createLink(controller:'news', action:'getNewsImage', params: [fileName:news.photo])}">
