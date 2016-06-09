@@ -54,7 +54,6 @@
                                <label>Photo Upload:</label>
                                <input type="file" name="photo" id="photo">
                            </div>
-
                            <button class="btn standard-button" style="margin-left: 475px;" type="submit">Add</button>
                        </g:form>
                    </div>
