@@ -51,13 +51,13 @@ grails.project.dependency.resolution = {
     dependencies {
         // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes e.g.
         runtime 'mysql:mysql-connector-java:5.1.27'
-        // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
-        test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
+//        // runtime 'org.postgresql:postgresql:9.3-1100-jdbc41'
+//        test "org.grails:grails-datastore-test-support:1.0.2-grails-2.4"
         compile 'net.sourceforge.dynamicreports:dynamicreports-core:4.0.1'
-        build "com.lowagie:itext:2.1.7"
-        compile ('ar.com.fdvs:DynamicJasper:5.0.0')
-        // compile 'net.sf.jasperreports:jasperreports:6.1.0'
-        runtime 'net.sourceforge.jexcelapi:jxl:2.6.12'
+//        build "com.lowagie:itext:2.1.7"
+//        compile ('ar.com.fdvs:DynamicJasper:5.0.0')
+//        // compile 'net.sf.jasperreports:jasperreports:6.1.0'
+//        runtime 'net.sourceforge.jexcelapi:jxl:2.6.12'
     }
 
     plugins {
@@ -66,7 +66,7 @@ grails.project.dependency.resolution = {
 
         // plugins for the compile step
         //compile ":scaffolding:2.0.1"
-        compile ':cache:1.1.1'
+//        compile ':cache:1.1.1'
         compile "org.grails.plugins:spring-security-core:2.0.0"
         compile ":mail:1.0.7"
 

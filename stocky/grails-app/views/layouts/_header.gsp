@@ -88,113 +88,113 @@ nav .active a{
 <header class="container-fluid">
 
     <img id="logo-img" src="${createLink(controller:'changeDesign', action:'getLogo', params: [fileName: session.getAttribute("logo")])}">
-    <ul style="list-style: none; float: right; padding-top: 2%; position: relative; margin-right: 2%;">
-        <sec:ifNotLoggedIn>
-            <li style="float: left; margin-right: 20px; cursor: pointer;"><a data-toggle="modal" data-target="#login">Login</a> </li>
-        </sec:ifNotLoggedIn>
-        <g:if test="${sec.loggedInUserInfo(field: 'username')}">
-            <li style="float: left; margin-right: 20px; cursor: pointer;">
-                <g:link controller="logout" action="index">Logout</g:link>
-            </li>
-        </g:if>
-        <!--<li style="float: left;"><a href="#">Activate account</a> </li>-->
-    </ul>
+<ul style="list-style: none; float: right; padding-top: 2%; position: relative; margin-right: 2%;">
+    <sec:ifNotLoggedIn>
+        <li style="float: left; margin-right: 20px; cursor: pointer;"><a data-toggle="modal" data-target="#login">Login</a> </li>
+    </sec:ifNotLoggedIn>
+    <g:if test="${sec.loggedInUserInfo(field: 'username')}">
+        <li style="float: left; margin-right: 20px; cursor: pointer;">
+            <g:link controller="logout" action="index">Logout</g:link>
+        </li>
+    </g:if>
+<!--<li style="float: left;"><a href="#">Activate account</a> </li>-->
+</ul>
 
-    <!-- Modal login -->
-    <div class="modal modal-fullscreen fade login-model" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header modal-header-confirm" style="border: none; margin-top: 85px;">
-                        <a title="Close" data-dismiss="modal"><span class="glyphicon glyphicon-remove icon-arrow-right pull-right" style="color:white; bottom: 0px;"></span></a>
-                </div>
-                <div class="modal-body">
-                    <div style="width: 800px; padding: 20px; background-color: azure;" class="container login-highlight">
-                        <div id="login-model" class="row">
-                            <div class="col-sm-6 itemCenter" style="height: 315px;">
-                                <img height="145px;" style="float: right;" src="${createLink(controller:'changeDesign', action:'getLogo', params: [fileName: session.getAttribute("logo")])}">
-                            </div>
+<!-- Modal login -->
+<div class="modal modal-fullscreen fade login-model" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="background-color: blueviolet;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header modal-header-confirm" style="border: none; margin-top: 85px;">
+                <a title="Close" data-dismiss="modal"><span class="glyphicon glyphicon-remove icon-arrow-right pull-right" style="color:gold; bottom: 0px;"></span></a>
+            </div>
+            <div class="modal-body">
+                <div style="width: 800px; padding: 20px; background-color: #eaf6f5;" class="container login-highlight">
+                    <div id="login-model" class="row">
+                        <div class="col-sm-6 itemCenter" style="height: 315px;">
+                            <img height="145px;" style="float: right;" src="${createLink(controller:'changeDesign', action:'getLogo', params: [fileName: session.getAttribute("logo")])}">
+                        </div>
 
 
-                            <div class="col-sm-6 itemCenter"  style="height: 315px;">
+                        <div class="col-sm-6 itemCenter"  style="height: 315px;">
 
-                                <form style="float: left; position: relative; width: 100%" class="form-signin" id="loginForm" onsubmit="return validateLogin();">
-                                    <div class="alert alert-danger" hidden="true" id="invalid-login">
-                                        <p><span class="glyphicon glyphicon-alert"/>Invalid username and/or password</p>
-                                    </div>
+                            <form style="float: left; position: relative; width: 100%" class="form-signin" id="loginForm" onsubmit="return validateLogin();">
+                                <div class="alert alert-danger" hidden="true" id="invalid-login">
+                                    <p><span class="glyphicon glyphicon-alert"/>Invalid username and/or password</p>
+                                </div>
 
-                                    <h2 style="color: #226CB5;" class="form-signin-heading">Login</h2>
-                                    <label for="username" class="sr-only">User Name</label>
-                                    <input type="text" id="username" name="j_username" class="form-control" placeholder="User Name" required="">
-                                    <label for="inputPassword" class="sr-only">Password</label>
-                                    <input type="password" id="inputPassword" name="j_password" class="form-control" placeholder="Password" required="" style="margin-top: 4%;">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox" value="remember-me" name="_spring_security_remember_me"> <span style="color: #ffffff;">Remember me</span>
-                                        </label>
-                                    </div>
-                                    <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-                                </form>
-                            </div>
-                            </div>
-                            </div>
+                                <h2 style="color: #226CB5;" class="form-signin-heading">Login</h2>
+                                <label for="username" class="sr-only">User Name</label>
+                                <input type="text" id="username" name="j_username" class="form-control" placeholder="User Name" required="">
+                                <label for="inputPassword" class="sr-only">Password</label>
+                                <input type="password" id="inputPassword" name="j_password" class="form-control" placeholder="Password" required="" style="margin-top: 4%;">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox" value="remember-me" name="_spring_security_remember_me"> <span style="color: #226CB5;">Remember me</span>
+                                    </label>
+                                </div>
+                                <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-
-    %{--password model--}%
-
-    <div id="changePassword" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header" style="background-color: #337AB7;">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title" style="color: #ffffff;">Change Password</h4>
-                </div>
-                <div class="modal-body">
-                    <g:form controller="user" action="changePassword">
-                        <input type="hidden" value="${session.user}" name="userId">
-                        <div style="height: 260px;">
-                            <div class="form-group">
-                                <label >Current Password: </label>
-                                <input type="password" class="form-control" name="oldPassword">
-                            </div>
-
-                            <div class="form-group">
-                                <label >New Password: </label>
-                                <input type="password" class="form-control" name="newPassword">
-                            </div>
-
-                            <div class="form-group">
-                                <label>Conform Password: </label>
-                                <input type="password" class="form-control">
-                            </div>
-
-                            <div class="form-group">
-                                <button class="btn btn-default standard-button" style="float: right;" type="submit">Change</button>
-                            </div>
-                        </div>
-                    </g:form>
-
-                </div>
-                <div class="modal-footer" style="background-color: #337AB7;">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-
-        </div>
     </div>
+</div>
+</div>
+
+
+%{--password model--}%
+
+<div id="changePassword" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header" style="background-color: #337AB7;">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" style="color: #ffffff;">Change Password</h4>
+            </div>
+            <div class="modal-body">
+                <g:form controller="user" action="changePassword">
+                    <input type="hidden" value="${session.user}" name="userId">
+                    <div style="height: 260px;">
+                        <div class="form-group">
+                            <label >Current Password: </label>
+                            <input type="password" class="form-control" name="oldPassword">
+                        </div>
+
+                        <div class="form-group">
+                            <label >New Password: </label>
+                            <input type="password" class="form-control" name="newPassword">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Conform Password: </label>
+                            <input type="password" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <button class="btn btn-default standard-button" style="float: right;" type="submit">Change</button>
+                        </div>
+                    </div>
+                </g:form>
+
+            </div>
+            <div class="modal-footer" style="background-color: #337AB7;">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+
+    </div>
+</div>
 
 </header>
 
 <nav class="navbar navbar-dark bg-primary" style="border: none; background-color: ${session.getAttribute("menu_color")}">
     <div class="container">
         <div class="navbar-header">
-             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -309,12 +309,12 @@ nav .active a{
             success: function (data) {
                 $.each(data,function(key,val){
 
-                   if(key=='success'){
-                       window.location.reload()
-                   }
-                   else if(key=='error'){
-                      $('#invalid-login').removeAttr('hidden')
-                   }
+                    if(key=='success'){
+                        window.location.reload()
+                    }
+                    else if(key=='error'){
+                        $('#invalid-login').removeAttr('hidden')
+                    }
                 })
             },
             error:function(err){
