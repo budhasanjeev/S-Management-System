@@ -488,6 +488,10 @@ li a:hover, .dropdown:hover .dropbtn {
     background-size: cover;
 }
 
+.minute{
+    height: 115px;
+}
+
 
 .minute-row{
     text-align: center;

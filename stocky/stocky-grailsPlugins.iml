@@ -22,12 +22,6 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.1">
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.1/src/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.1/src/groovy" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.1/grails-app/services" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/cache-1.1.1/grails-app/taglib" isTestSource="false" />
-    </content>
     <content url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.3.8">
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.3.8/src/groovy" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/target/work/plugins/database-migration-1.3.8/grails-app/controllers" isTestSource="false" />
@@ -80,9 +74,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/net/sf/ehcache/ehcache/2.9.0/ehcache-2.9.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/3.2.9.RELEASE/spring-security-web-3.2.9.RELEASE.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/3.2.9.RELEASE/spring-security-core-3.2.9.RELEASE.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/commons-collections/commons-collections/3.1/commons-collections-3.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/ar/com/fdvs/DynamicJasper/5.0.0/DynamicJasper-5.0.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/avalon-framework/avalon-framework-impl/4.2.0/avalon-framework-impl-4.2.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/net/sf/barcode4j/barcode4j/2.0/barcode4j-2.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar!/" />
@@ -99,7 +90,6 @@
           <root url="jar://$MAVEN_REPOSITORY$/net/sf/jasperreports/jasperreports/6.1.0/jasperreports-6.1.0.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/dynamicreports/dynamicreports-core/4.0.1/dynamicreports-core-4.0.1.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/com/sun/mail/javax.mail/1.5.1/javax.mail-1.5.1.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/5.1.27/mysql-connector-java-5.1.27.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/liquibase/liquibase-core/2.0.5/liquibase-core-2.0.5.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-commons-annotations/3.2.0.Final/hibernate-commons-annotations-3.2.0.Final.jar!/" />
@@ -116,16 +106,11 @@
           <root url="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/antlr/antlr/2.7.7/antlr-2.7.7.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-gorm-hibernate/2.0.7.RELEASE/grails-datastore-gorm-hibernate-2.0.7.RELEASE.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/grails/grails-datastore-test-support/1.0.2-grails-2.4/grails-datastore-test-support-1.0.2-grails-2.4.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/7.0.50/tomcat-embed-core-7.0.50.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/eclipse/jdt/core/compiler/ecj/3.7.2/ecj-3.7.2.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-logging-log4j/7.0.50/tomcat-embed-logging-log4j-7.0.50.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-jasper/7.0.50/tomcat-embed-jasper-7.0.50.jar!/" />
           <root url="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-catalina-ant/7.0.50/tomcat-catalina-ant-7.0.50.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcmail-jdk14/1.38/bcmail-jdk14-1.38.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bcprov-jdk14/1.38/bcprov-jdk14-1.38.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/org/bouncycastle/bctsp-jdk14/1.38/bctsp-jdk14-1.38.jar!/" />
-          <root url="jar://$MAVEN_REPOSITORY$/com/lowagie/itext/2.1.7/itext-2.1.7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

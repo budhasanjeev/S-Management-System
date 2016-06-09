@@ -66,25 +66,59 @@
         </div>
     </div>
 
-    <div id="left-news-content" class="row">
 
-        <g:each in="${docList}" var="document">
+    <div class="row"></div>
 
-            <div class="col-md-7">
-                <div class="news-heading">
-                    <h1>${document.title}</h1>
-                </div>
-                <div class="news-para">
-                    <p>${document.date}</p>
-                </div>
+    <g:each in="${docList}" var="document">
+        <div class="col-lg-5 highlight minute">
+            <div>
+                <ul class="onHoverButton">
+                    <li>
+                        <button class="btn standard-button" data-toggle="modal" data-target="#editMinute">Edit</button>
+                        <button class="btn standard-button">Delete</button>
+                        <button class="btn standard-button">Download</button>
+                    </li>
+                </ul>
             </div>
-            <div class="col-sm-5 news-content-image">
+            <div class="col-md-4 itemCenter" style="height: 100%;">
                 <a href= "${createLink(controller:'document', action:'getDocumentImage', params: [fileName:document.document])}">
-                    <img style="height: 180px; width: 230px;" src="${createLink(controller:'document', action:'getFormImage', params: [fileName:document.document])}/">
+                    <img style="height: 60px; width: 130px;" src="${createLink(controller:'document', action:'getFormImage', params: [fileName:document.document])}/">
                 </a>
             </div>
-        </g:each>
-    </div>
+            <div class="col-lg-8">
+                <h4>Title: ${document.title}</h4>
+
+                <h5>Date: >${document.date}</h5>
+            </div>
+        </div>
+    </g:each>
+
+
+
+
+
+    %{--<div id="left-news-content" class="row">--}%
+
+        %{--<g:each in="${docList}" var="document">--}%
+
+            %{--<div class="col-md-7">--}%
+                %{--<div class="news-heading">--}%
+                    %{--<h1>${document.title}</h1>--}%
+                %{--</div>--}%
+                %{--<div class="news-para">--}%
+                    %{--<p>${document.date}</p>--}%
+                %{--</div>--}%
+            %{--</div>--}%
+            %{--<div class="col-sm-5 news-content-image">--}%
+                %{--<a href= "${createLink(controller:'document', action:'getDocumentImage', params: [fileName:document.document])}">--}%
+                    %{--<img style="height: 180px; width: 230px;" src="${createLink(controller:'document', action:'getFormImage', params: [fileName:document.document])}/">--}%
+                %{--</a>--}%
+            %{--</div>--}%
+        %{--</g:each>--}%
+    %{--</div>--}%
+
+
+</div>
 
 
 </body>
