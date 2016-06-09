@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button style="margin-left: 428px" type="submit" class="btn btn-primary" id="save">Add Minute</button>
+                                <button style="margin-left: 428px" type="submit" class="btn standard-button" id="save">Add Minute</button>
                             </div>
                         </g:form>
                     </fieldset>
@@ -126,8 +126,8 @@
             <div>
                 <ul class="onHoverButton">
                     <li>
-                        <button class="btn standard-button" data-toggle="modal" data-target="#editMinute">Edit</button>
-                        <button class="btn standard-button">Delete</button>
+                        <button class="btn standard-button" data-toggle="modal" data-target="#editMinute"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+                        <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button>
                     </li>
                 </ul>
             </div>
@@ -138,7 +138,6 @@
             </div>
             <div class="col-lg-8">
                 <h4>Title: ${v.title}</h4>
-
                 <h5>Date: ${v.event_date}</h5>
             </div>
         </div>
