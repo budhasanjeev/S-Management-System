@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="col-md-4">
-            <button style="margin: 11px;" class="btn btn-default pull-right" id="generateReport">Generate Report</button>
+            <g:link controller="report" action="generateAll" params="[rType:tableTypes]"><button style="margin: 11px;" class="btn btn-default pull-right">Download Report</button></g:link>
         </div>
     </div>
 
@@ -126,7 +126,7 @@
 
     $('#generateReport').click(function(){
         $('#filterForm').modal();
-        var data = $('#form-type')
+        var data = $('#form-type').val()
         $('#rType').attr('value',data)
     })
 
