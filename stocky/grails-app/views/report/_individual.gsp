@@ -54,7 +54,7 @@
             <td>
                 <ul>
                     <g:each in="${shareInfoLists[i]}" var="cList" status="n">
-                        <li>${shareInfoLists[i][n].shareEnd}</li>
+                        <li>${shareInfoLists[i][n].shareCertificateNumber}</li>
                     </g:each>
                 </ul>
             </td>
