@@ -107,7 +107,7 @@
                                 </div>
                             </div>
                             <div>
-                                <button style="margin-left: 428px" type="submit" class="btn btn-primary" id="save">Add Minute</button>
+                                <button style="margin-left: 428px" type="submit" class="btn standard-button" id="save">Add Minute</button>
                             </div>
                         </g:form>
                     </fieldset>

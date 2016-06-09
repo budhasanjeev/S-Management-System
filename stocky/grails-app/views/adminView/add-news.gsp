@@ -55,7 +55,7 @@
                                <input type="file" name="photo" id="photo">
                            </div>
 
-                           <button class="btn btn-default" type="submit">Save</button>
+                           <button class="btn standard-button" style="margin-left: 475px;" type="submit">Add</button>
                        </g:form>
                    </div>
                    <div class="modal-footer" style="background-color: #337AB7;">
@@ -79,8 +79,8 @@
                    <div class="col-sm-5 news-content-image">
                        <div>
                            <ul>
-                               <li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></li>
-                               <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Edit</button></li>
+                               <li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></li>
+                               <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-pencil-list-alt"></span>&nbsp;&nbsp;Edit</button></li>
                            </ul>
                        </div>
                        <a href= "${createLink(controller:'news', action:'getNewsImage', params: [fileName:news.photo])}">

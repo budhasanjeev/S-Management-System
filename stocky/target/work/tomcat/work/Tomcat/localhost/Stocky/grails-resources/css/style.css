@@ -464,7 +464,7 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 /*.design-option-left{*/
- /**/
+/**/
 /*}*/
 
 .design-row{
@@ -486,6 +486,10 @@ li a:hover, .dropdown:hover .dropbtn {
 .back-image{
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.minute{
+    height: 115px;
 }
 
 
@@ -511,9 +515,13 @@ li a:hover, .dropdown:hover .dropbtn {
 
 
 .login-highlight{
-    -webkit-box-shadow: 0px 0px 182px -10px rgba(255, 255, 255, 1);
-    -moz-box-shadow: 0px 0px 182px -10px rgba(255, 255, 255, 1);
-    box-shadow: 0px 0px 182px -10px rgba(255, 255, 255, 1);
+    /*-webkit-box-shadow: 0px 0px 182px -10px rgba(255, 255, 255, 1);*/
+    /*-moz-box-shadow: 0px 0px 182px -10px rgba(255, 255, 255, 1);*/
+    /*box-shadow: 0px 0px 182px -10px rgba(255, 255, 255, 1);*/
+
+    -webkit-box-shadow: 0px 0px 300px 200px rgba(234,247,245,1);
+    -moz-box-shadow: 0px 0px 300px 200px rgba(234,247,245,1);
+    box-shadow: 0px 0px 300px 200px rgba(234,247,245,1);
 }
 
 
@@ -522,9 +530,9 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 
-#user-table thead tr th{
-    text-align: center;
-}
+/*#user-table thead tr th{*/
+/*text-align: center;*/
+/*}*/
 
 legend{
     text-align: center;
