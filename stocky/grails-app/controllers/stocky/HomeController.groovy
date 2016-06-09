@@ -47,7 +47,11 @@ class HomeController {
             }
             if (SpringSecurityUtils.ifAllGranted("ROLE_EMPLOYEE")){
 
-               redirect(controller: 'employee',action: 'index')
+                redirect(controller: 'employee',action: 'index')
+            }
+            if (SpringSecurityUtils.ifAllGranted("ROLE_EXECUTIVE")){
+
+                redirect(controller: 'executive',action: 'index')
             }
         }
         else{
