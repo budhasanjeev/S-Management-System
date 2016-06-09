@@ -9,7 +9,16 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Portfolio </title></head>
+    <title>Portfolio </title>
+
+    <style>
+        .shareholder-photo{
+            height: 30px;
+        }
+    </style>
+</head>
+
+
 <body>
 <div class="container" style="width: 96%">
 
@@ -37,6 +46,7 @@
 
     <hr/>
     <div style="overflow-x: scroll; width: 100%;">
+        <input type="hidden" value="${tableTypes}" id="form-type">
         <g:render template="${tableTypes}"/>
     </div>
 </div>
@@ -53,7 +63,7 @@
             </div>
             <div class="modal-body">
                 <g:form controller="report" action="generateAll">
-                    <div class="col-sm-6">
+                    %{--<div class="col-sm-6">
                         <fieldset>
                             <legend>Choose fields</legend>
                         </fieldset>
@@ -74,20 +84,24 @@
                             <option value="consolidated">consolidated</option>
                             <option value="individual">individual</option>
                         </select>
-                    </div>
-                    <div class="col-sm-6">
+                    </div>--}%
+                    <input type="hidden" id="rType" name="rType">
+                    <div>
                         <table class="table table-striped" id="user-table">
                             <thead>
                             <tr>
+                                <td>
+                                    <input type="checkbox" onclick="selectAll(this)">
+                                </td>
                                 <td colspan="2">
-                                    Select Shareholder
+                                    Select All
                                 </td>
                             </tr>
                             </thead>
                             <tbody>
                             <g:each in="${userLists}" var="u" status="i">
                                 <tr>
-                                    <td><input type="checkbox" name="shareholder-name"></td>
+                                    <td><input type="checkbox" name="shareholder-name" value="${u.id}"></td>
                                     <td>${u.firstName}&nbsp;${u.lastName}</td>
                                     <td><img class="shareholder-photo img-circle" src="${createLink(controller:'user', action:'getImage', params: [fileName:u.userImage])}"/></td>
                                 </tr>
@@ -112,7 +126,16 @@
 
     $('#generateReport').click(function(){
         $('#filterForm').modal();
+        var data = $('#form-type')
+        $('#rType').attr('value',data)
     })
+
+    function selectAll(source) {
+        checkboxes = document.getElementsByName('shareholder-name');
+        for(var i=0, n=checkboxes.length;i<n;i++) {
+            checkboxes[i].checked = source.checked;
+        }
+    }
 </script>
 </body>
 </html>
