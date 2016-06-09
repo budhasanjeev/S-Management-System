@@ -24,20 +24,20 @@
             </div>
             <div class="modal-body">
 
-                <g:form controller="news" action="save" enctype="multipart/form-data">
+                <g:form controller="mail" action="sendMail" enctype="multipart/form-data">
                     <div class="form-group">
                         <label>To:</label>
-                        <input type="text" class="form-control" id="" name="">
+                        <input type="text" class="form-control" id="to" name="to">
                     </div>
 
                     <div class="form-group">
-                        <label for="comment">Subject:</label>
-                        <input type="text" class="form-control" id="" name="">
+                        <label>Subject:</label>
+                        <input type="text" class="form-control" id="subject" name="subject">
                     </div>
 
                     <div class="form-group">
                         <label>Body</label>
-                        <textarea class="form-control" rows="5" id="comment" name="content"></textarea>
+                        <textarea class="form-control" rows="5" id="content" name="content"></textarea>
                     </div>
 
                     <button class="btn btn-default" type="submit">Send</button>
@@ -110,7 +110,8 @@
                         <td style="vertical-align: middle;">${s.firstName} ${s.lastName}</td>
                         <td style="vertical-align: middle;">${s.mobileNumber}</td>
                         <td style="vertical-align: middle;">
-                            <g:link controller="user" action="mail" data-toggle="modal" data-target="#mailModel" params="[user_id:s.id]"><i class="glyphicon glyphicon-envelope"></i></g:link>
+                            <input type="hidden" value="${s.email}" id="${s.id}">
+                            <span class="glyphicon glyphicon-envelope" onclick="javascript:getIndModelMail(${s.id})"></span>
                             <g:link controller="user" action="editSave" params="[user_id:s.id]"><i class="glyphicon glyphicon-pencil"></i> </g:link>
                             <g:link controller="user" action="delete" params="[user_id:s.id]"><i class="glyphicon glyphicon-trash"></i></g:link>
                          </td>
@@ -168,7 +169,7 @@
                         </g:form>
                     </div>
                     <li><g:link controller="report" action="executiveSummary" params="[reportType:'individual']">Executive Summery</g:link></li>
-                    <li><a href="#">Email All<span class="icon"></span></a></li>
+                    <li><span onclick="javascript:getGroupModelMail()">Email All</span></li>
                 </ul>
             </nav>
             <button class="btn select-btn nav-expander fixed standard-button" style="margin-top: 7%;" id="nav-expander">
@@ -222,6 +223,22 @@
 <script src="${resource(dir: 'js', file: 'jquery.navgoco.js')}"></script>
 
 <script>
+    function getIndModelMail(id)
+    {
+        var userEmail = document.getElementById(id).value
+        $('#mailModel').modal('show');
+
+        $('#to').attr("value",userEmail)
+
+    }
+    function getGroupModelMail(id)
+    {
+        var userEmail= "_protfolio@deerwalk.edu.np"
+        $('#mailModel').modal('show');
+
+        $('#to').attr("value",userEmail)
+
+    }
     $(document).ready(function(){
 
         // close popover
