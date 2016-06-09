@@ -138,7 +138,6 @@
             </div>
             <div class="col-lg-8">
                 <h4>Title: ${v.title}</h4>
-
                 <h5>Date: ${v.event_date}</h5>
             </div>
         </div>
