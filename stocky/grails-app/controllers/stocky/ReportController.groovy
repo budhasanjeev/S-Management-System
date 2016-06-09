@@ -37,6 +37,8 @@ class ReportController {
             additionalInfoLists.add(Shareholder.findByUser(it.user))
         }
 
+        println("="+shareInfoLists)
+
         for (def share : shareInfoLists) {
             int totalShareAmount = 0
             int totalShareNumber = 0
@@ -49,15 +51,14 @@ class ReportController {
             int maxIndex = 0;
 
             if(share.size > 0){
+                maxIndex = share.size-1
                 def shareObject = []
                 shareObject.add(totalShareAmount)
                 shareObject.add(totalShareNumber)
-                shareObject.add(share[share.size-1].shareAmount)
+                shareObject.add(share[maxIndex].shareAmount)
 
                 shareInfoListsC.add(shareObject)
             }
-
-
 
         }
 
@@ -114,12 +115,28 @@ class ReportController {
 
     def generateAll(){
 
+        println("=="+params)
+        String path = ""
         if(params.rType=="individual"){
-            executiveReportService.generateReportI(params)
+            path = executiveReportService.generateReportI(params)
         }
         else if (params.rType=="consolidated"){
-            executiveReportService.generateReportC(params)
+            path =executiveReportService.generateReportC(params)
         }
+        def file = new File(path)
+        println(path)
+        println "Exporting File Started!!"
+        if (file.exists()) {
+            response.setContentType("application/oc tet-stream")
+            response.setHeader("Content-disposition", "filename=${file.name}")
+            response.outputStream << file.bytes
+            response.getOutputStream().flush();
+            response.getOutputStream().close();
+            return;
+        }else{
+            return render(["File is already deleted"] as JSON)
+        }
+
     }
 
 
