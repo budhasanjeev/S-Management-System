@@ -27,7 +27,7 @@
             <td>${additionalInfoLists[i].grandFatherName}</td>
             <td>${additionalInfoLists[i].city},${additionalInfoLists[i].district}</td>
             <td>${additionalInfoLists[i].citizenshipNo}</td>
-            <td>${consolidatedList[i][2]}</td>
+            <td>${consolidatedList[i][consolidatedList.size]}</td>
         </tr>
     </g:each>
 
