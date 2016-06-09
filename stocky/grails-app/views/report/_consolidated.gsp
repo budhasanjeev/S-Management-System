@@ -5,7 +5,6 @@
         <th>Name</th>
         <th>No. of Share</th>
         <th>Investment</th>
-        <th>Share Certificate No.</th>
         <th>Contact No.</th>
         <th>Email</th>
         <th>Father's Name</th>
@@ -22,7 +21,6 @@
             <td>${u.firstName}&nbsp;${u.lastName}</td>
             <td>${consolidatedList[i][1]}</td>
             <td>${consolidatedList[i][0]}</td>
-            <td></td>
             <td>${u.mobileNumber}</td>
             <td>${u.email}</td>
             <td>${additionalInfoLists[i].fatherName}</td>
@@ -35,3 +33,8 @@
 
     </tbody>
 </table>
+<style>
+    table{
+        font-size: 11px;
+    }
+</style>
