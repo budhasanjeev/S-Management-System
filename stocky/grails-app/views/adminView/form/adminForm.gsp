@@ -95,7 +95,7 @@
             <div>
                 <ul class="onHoverButton">
                     <li>
-                        <button class="btn standard-button">Download</button>
+                        <button class="btn standard-button"><span class="glyphicon glyphicon-download"></span> Download</button>
                     </li>
                 </ul>
             </div>
