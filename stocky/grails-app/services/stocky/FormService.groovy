@@ -9,11 +9,14 @@ class FormService {
     def documentService
 
    def formUpload(params){
+
        CommonsMultipartFile  formDocument =  params.myFile
        final String formDocs = formDocument.getOriginalFilename()
        params.formDoc = formDocs
 
        def form = new Form(params)
+
+        form.date = new Date()
 
        documentService.formUpload(params)
 
