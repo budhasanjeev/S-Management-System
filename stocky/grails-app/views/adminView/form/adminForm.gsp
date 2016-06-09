@@ -71,17 +71,21 @@
 <div id="left-news-content" class="row">
 
 
+<g:each in="${formList}" var="f">
 
     <div class="col-lg-5 highlight" style="height: 160px;">
         <div class="col-md-4">
-            <img height="130px;" width="100%;" src="${resource(dir: 'images',file: 'logo.png')}" alt=""/>
+            <img class="user-photo img-circle" src="${createLink(controller:'form', action:'getFormImage', params: [fileName:f.formDoc])}" alt="Form"/>
         </div>
         <div class="col-md-8">
-            <h2>Title</h2>
-            <button>Download</button>
+            <h2>${f.title}</h2>
+            <g:link controller="form" action="downloadForm"><button>Download</button></g:link>
         </div>
 
     </div>
+
+</g:each>
+
 </div>
 
 </div>
