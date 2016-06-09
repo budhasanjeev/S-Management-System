@@ -122,7 +122,7 @@
     <div class="row"></div>
 
 <g:each in="${minutesList}" var="v">
-        <div class="col-lg-5 highlight minute" >
+        <div class="col-lg-5 highlight minute">
             <div>
                 <ul class="onHoverButton">
                     <li>
@@ -131,13 +131,13 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 itemCenter" style="height: 100%;">
                 <a href= "${createLink(controller:'user', action:'getMinute', params: [fileName:v.minuteDoc])}">
                     <img style="height: 60px; width: 130px;" src="${createLink(controller:'user', action:'getMinute', params: [fileName:v.minuteDoc])}">
                 </a>
             </div>
             <div class="col-lg-8">
-                <h3>Title: ${v.title}</h3>
+                <h4>Title: ${v.title}</h4>
 
                 <h5>Date: ${v.event_date}</h5>
             </div>
