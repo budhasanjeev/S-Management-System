@@ -78,7 +78,6 @@
                     <div class="col-sm-8">
                         <input class="form-control" type="text" name="sharePercent" id="percent">
                         <span hidden="true" class="error-sharePercent">Please enter numeric characters only</span>
-certificateNum
                     </div>
                 </div>
 
