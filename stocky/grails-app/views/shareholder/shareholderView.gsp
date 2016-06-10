@@ -11,6 +11,13 @@
     <meta name="layout" content="main"/>
     <title>Portfolio</title>
 </head>
+
+<script type="text/javascript" src="${resource(dir: 'js', file: 'jquery-1.12.0.min.js')}"></script>
+<script type="text/javascript" src="${resource(dir: 'lib', file: 'jquery.mousewheel-3.0.6.pack.js')}"></script>
+<script type="text/javascript" src="${resource(dir: 'source', file: 'jquery.fancybox.pack.js')}"></script>
+<link rel="stylesheet" href="${resource(dir: 'source', file: 'jquery.fancybox.css')}">
+
+
 <body>
 
 <div class="container">
@@ -52,9 +59,9 @@
     </g:each>
     <div class="col-md-8" style="float: right;">
         <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#history">Share History</a></li>
-            <li><a data-toggle="tab" href="#documents">Documents</a></li>
-            <li><a data-toggle="tab" href="#shareValues">Share Values</a></li>
+            <li class="active"><a data-toggle="tab" href="#history" style="color: #000000; background-color: transparent;">Share History</a></li>
+            <li><a data-toggle="tab" href="#documents" style="color: #000000; background-color: transparent;">Documents</a></li>
+            <li><a data-toggle="tab" href="#shareValues" style="color: #000000; background-color: transparent;">Share Values</a></li>
         </ul>
 
         <div class="tab-content">
@@ -82,7 +89,7 @@
                             <td>${s.shareStart}</td>
                             <td>${s.shareEnd}</td>
                             <td>${s.numberOfShares}</td>
-                            <td><g:link controller="user" action="getCertificate" params="[fileName: s.shareCertificate]"><button>view</button></g:link></td>
+                            <td><g:link controller="user" action="getCertificate" params="[fileName: s.shareCertificate]" class="fancybox" rel="group"><button>view</button></g:link></td>
                         </tr>
 
                     </g:each>
@@ -93,8 +100,8 @@
                 <h3>Citizenship</h3>
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="thumbnail gallery-thumbnail">
-                            <img src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
+                        <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
+                            <img style="height: 100%; width: 100%;" src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
                         </div>
                     </div>
                 </div>
@@ -102,8 +109,8 @@
                 <h3>Photo of Signature</h3>
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="thumbnail gallery-thumbnail">
-                            <img src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
+                        <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
+                            <img style="height: 100%; width: 100%;" src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
                         </div>
                     </div>
                 </div>
