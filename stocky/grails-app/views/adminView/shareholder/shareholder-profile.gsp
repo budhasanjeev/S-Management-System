@@ -51,8 +51,8 @@
     </div>
     <div class="col-md-8" style="float: right;">
         <ul class="nav nav-tabs">
-            <li class="active"><a data-toggle="tab" href="#history">Share History</a></li>
-            <li><a data-toggle="tab" href="#documents">Documents</a></li>
+            <li class="active"><a data-toggle="tab" href="#history" style="color: #000000; background-color: transparent;">Share History</a></li>
+            <li><a data-toggle="tab" href="#documents" style="color: #000000; background-color: transparent;">Documents</a></li>
         </ul>
 
         <div class="tab-content">
@@ -87,7 +87,7 @@
 
                             <td>
                                 <button>
-                                  <a href= "${createLink(controller:'user', action:'getCertificate', params: [fileName:s.shareCertificate])}" class="fancybox" rel="group"> View</a>
+                                  <a href= "${createLink(controller:'user', action:'getCertificate', params: [fileName:s.shareCertificate])}" class="fancybox" rel="group">View</a>
                                 </button>
                             </td>
                         </tr>
@@ -101,9 +101,9 @@
                 <h3>Citizenship</h3>
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="thumbnail gallery-thumbnail">
-                            <a href="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:shareholder.citizenShipPhoto])}">
-                                <img src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
+                        <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
+                            <a href="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:shareholder.citizenShipPhoto])}" class="fancybox" rel="group">
+                                <img style="width: 100%; height: 100%;" src="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:shareholder.citizenShipPhoto])}">
                             </a>
                         </div>
                     </div>
@@ -112,9 +112,10 @@
                 <h3>Digital Signature</h3>
                 <div class="row">
                     <div class="col-md-3">
-                        <div class="thumbnail gallery-thumbnail">
+                        <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
                             <a href="${createLink(controller:'user', action:'getSignature', params: [fileName:shareholder.signature])}" class="fancybox" rel="group">
-                                <img src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
+                                <img style="width: 100%; height: 100%;" src="${createLink(controller:'user', action:'getSignature', params: [fileName:shareholder.signature])}">
+                                %{--<img src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">--}%
                             </a>
                         </div>
                     </div>
@@ -133,6 +134,16 @@
             }
         }
     });
+
+
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".fancybox").fancybox();
+    });
+
 </script>
 
 </body>
