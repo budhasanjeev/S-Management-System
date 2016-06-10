@@ -11,6 +11,14 @@
     <meta name="layout" content="main"/>
     <title>Portfolio</title>
     <script src="${resource(dir: 'js',file: 'app-script.js')}" type="text/javascript"></script>
+
+
+    <script type="text/javascript" src="${resource(dir: 'js', file: 'jquery-1.12.0.min.js')}"></script>
+    <script type="text/javascript" src="${resource(dir: 'lib', file: 'jquery.mousewheel-3.0.6.pack.js')}"></script>
+    <script type="text/javascript" src="${resource(dir: 'source', file: 'jquery.fancybox.pack.js')}"></script>
+    <link rel="stylesheet" href="${resource(dir: 'source', file: 'jquery.fancybox.css')}">
+
+
 </head>
 
 <body>
@@ -132,7 +140,7 @@
                 </ul>
             </div>
             <div class="col-md-4 itemCenter" style="height: 100%;">
-                <a href= "${createLink(controller:'user', action:'getMinute', params: [fileName:v.minuteDoc])}">
+                <a href= "${createLink(controller:'user', action:'getMinute', params: [fileName:v.minuteDoc])}" class="fancybox" rel="group">
                     <img style="height: 60px; width: 130px;" src="${createLink(controller:'user', action:'getMinute', params: [fileName:v.minuteDoc])}">
                 </a>
             </div>
@@ -143,5 +151,13 @@
         </div>
 </g:each>
 </div>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".fancybox").fancybox();
+    });
+</script>
+
 </body>
 </html>
