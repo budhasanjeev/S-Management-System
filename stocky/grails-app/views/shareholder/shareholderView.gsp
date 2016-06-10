@@ -10,12 +10,15 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Portfolio</title>
+
+    <script type="text/javascript" src="${resource(dir: 'js', file: 'jquery-1.12.0.min.js')}"></script>
+    <script type="text/javascript" src="${resource(dir: 'lib', file: 'jquery.mousewheel-3.0.6.pack.js')}"></script>
+    <script type="text/javascript" src="${resource(dir: 'source', file: 'jquery.fancybox.pack.js')}"></script>
+    <link rel="stylesheet" href="${resource(dir: 'source', file: 'jquery.fancybox.css')}">
+
 </head>
 
-<script type="text/javascript" src="${resource(dir: 'js', file: 'jquery-1.12.0.min.js')}"></script>
-<script type="text/javascript" src="${resource(dir: 'lib', file: 'jquery.mousewheel-3.0.6.pack.js')}"></script>
-<script type="text/javascript" src="${resource(dir: 'source', file: 'jquery.fancybox.pack.js')}"></script>
-<link rel="stylesheet" href="${resource(dir: 'source', file: 'jquery.fancybox.css')}">
+
 
 
 <body>
@@ -80,15 +83,17 @@
                         <th>Start no.</th>
                         <th>End no.</th>
                         <th>Number</th>
+                        <th>Certificate Number</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <g:each in="${shareValue}" var="s">
+                    <g:each in="${share}" var="s">
                         <tr>
                             <td>${s.purchasedDate}</td>
                             <td>${s.shareStart}</td>
                             <td>${s.shareEnd}</td>
                             <td>${s.numberOfShares}</td>
+                            <td>${s.shareCertificateNumber}</td>
                             <td><g:link controller="user" action="getCertificate" params="[fileName: s.shareCertificate]" class="fancybox" rel="group"><button>view</button></g:link></td>
                         </tr>
 
@@ -101,7 +106,9 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
-                            <img style="height: 100%; width: 100%;" src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
+                            <a href="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:additional.citizenShipPhoto])}" class="fancybox" rel="group">
+                                <img style="height: 100%; width: 100%;" src="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:additional.citizenShipPhoto])}">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -110,7 +117,9 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
-                            <img style="height: 100%; width: 100%;" src="${resource(dir: 'images', file: 'deerwalk-logo.png')}">
+                            <a href="${createLink(controller:'user', action:'getSignature', params: [fileName:additional.signature])}" class="fancybox" rel="group">
+                                <img style="height: 100%; width: 100%;" src="${createLink(controller:'user', action:'getSignature', params: [fileName:additional.signature])}"">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -123,7 +132,7 @@
                             Current Share Value
                         </h4>
                         <div class="value">
-                            <h1>12,34,12,344</h1>
+                            <h1>${shareValue}</h1>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -131,7 +140,7 @@
                             Authorized Capital
                         </h4>
                         <div class="value">
-                            <h1>1,32,41,324</h1>
+                            <h1>${authorizedCapitalValue}</h1>
                         </div>
                     </div>
                 </div>
@@ -140,7 +149,7 @@
                         <h4>Issued Capital
                         </h4>
                         <div class="value">
-                            <h1>12,34,1234</h1>
+                            <h1>${issuedCapitalValue}</h1>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -148,11 +157,12 @@
                             Paid Up Capital
                         </h4>
                         <div class="value">
-                            <h1>1,23,41,324</h1>
+                            <h1>${paidCapitalValue}</h1>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -165,6 +175,13 @@
                 return (this.bottom = $('.footer').outerHeight(true))
             }
         }
+    });
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".fancybox").fancybox();
     });
 </script>
 
