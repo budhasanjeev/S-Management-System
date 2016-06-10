@@ -1,5 +1,6 @@
 package stocky
 
+import grails.converters.JSON
 import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.web.multipart.commons.CommonsMultipartFile
 
@@ -19,9 +20,7 @@ class NewsController {
             }
         }
 
-
-        println("===="+marqueeList)
-        render (view: '/adminView/add-news',model: [newsLists:newsList,marqueeList:marqueeList])
+        render (view: '/adminView/news/add-news',model: [newsLists:newsList,marqueeList:marqueeList])
 
     }
 
@@ -40,10 +39,31 @@ class NewsController {
 
     def getNewsImage(){
         String fileName = params.fileName
-        println fileName;
         File sourceImage = new File("upload/news/"+fileName)
 
         def inputStream = new FileInputStream(sourceImage)
         render file: inputStream, contentType: '*/*'
+    }
+
+    def edit(){
+        def news =News.findById(params.id as Long)
+        render(view:'/adminView/news/edit',model:[news:news])
+
+
+    }
+
+    def update(){
+
+        def news =News.findById(params.id as Long)
+        news.properties=params
+        news.save(flush: true, failOnError: true)
+
+        redirect(cnontroller: 'news', action:'index')
+    }
+
+    def readNews(){
+
+        def news =News.findById(params.newsId as long)
+        render(view:'/adminView/news/readNews',model:[newsInstance:news])
     }
 }
