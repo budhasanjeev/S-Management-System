@@ -101,7 +101,7 @@ nav .active a{
 </ul>
 
 <!-- Modal login -->
-<div class="modal modal-fullscreen fade login-model" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="background-color: blueviolet;">
+<div class="modal modal-fullscreen fade login-model" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="background-color: #1F69B3;">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header modal-header-confirm" style="border: none; margin-top: 85px;">
