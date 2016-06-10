@@ -10,6 +10,7 @@
 <head>
     <meta name="layout" content="main"/>
     <title>Portfolio</title>
+
 </head>
 <body>
 <div class="container">
