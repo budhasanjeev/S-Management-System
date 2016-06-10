@@ -80,7 +80,7 @@
 
                        <div>
                            <ul>
-                              <g:link controller="news" action="readNews" params="[id:news.id]"><li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#read-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></g:link></li>
+                              <g:link controller="news" action="readNews" params="[newsId:news.id]"><li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#read-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></g:link></li>
                                <g:link controller="news" action="edit" params="[id:news.id]"> <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Edit</button></g:link></li>
                            </ul>
                        </div>
