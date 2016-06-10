@@ -111,7 +111,7 @@
                         <td style="vertical-align: middle;">${s.mobileNumber}</td>
                         <td style="vertical-align: middle;">
                             <input type="hidden" value="${s.email}" id="${s.id}">
-                            <span class="glyphicon glyphicon-envelope" onclick="javascript:getIndModelMail(${s.id})"></span>
+                            <span style="color: #337AB7;" class="glyphicon glyphicon-envelope" onclick="javascript:getIndModelMail(${s.id})"></span>
                             <g:link controller="user" action="editSave" params="[user_id:s.id]"><i class="glyphicon glyphicon-pencil"></i> </g:link>
                             <g:link controller="user" action="delete" params="[user_id:s.id]"><i class="glyphicon glyphicon-trash"></i></g:link>
                          </td>
@@ -145,7 +145,7 @@
                     <div id="popover-content1" class="hide" style="text-align: center;" >
                         <g:form class="form-inline" role="form" style="width: 100%;" controller="authorizedCapitalValue" action="save">
                             <div class="form-group">
-                                <input type="text" placeholder="authorized-capital" class="form-control" name="authorizedCapitalvalue" id="authorizedCapitalvalue" style="margin: 5px;">
+                                <input type="text" placeholder="authorized-capital" class="form-control" name="authorizedCapitalValue" id="authorizedCapitalValue" style="margin: 5px;">
                                 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
                             </div>
                         </g:form>
@@ -169,7 +169,7 @@
                         </g:form>
                     </div>
                     <li><g:link controller="report" action="executiveSummary" params="[reportType:'individual']">Executive Summery</g:link></li>
-                    <li><span onclick="javascript:getGroupModelMail()">Email All</span></li>
+                    <li><a><span onclick="javascript:getGroupModelMail()">Email All</span></a></li>
                 </ul>
             </nav>
             <button class="btn select-btn nav-expander fixed standard-button" style="margin-top: 7%;" id="nav-expander">
