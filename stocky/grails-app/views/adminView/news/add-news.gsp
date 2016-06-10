@@ -5,7 +5,7 @@
   Time: 3:42 PM
 --%>
 
-<%@ page contentType="text/html;charset=UTF-8" %>
+<%@ page import="stocky.News" contentType="text/html;charset=UTF-8" %>
 <html>
 <head>
     <meta name="layout" content="main"/>
@@ -54,7 +54,8 @@
                                <label>Photo Upload:</label>
                                <input type="file" name="photo" id="photo">
                            </div>
-                           <button class="btn standard-button" style="margin-left: 475px;" type="submit">Add</button>
+
+                           <button class="btn btn-default" type="submit">Save</button>
                        </g:form>
                    </div>
                    <div class="modal-footer" style="background-color: #337AB7;">
@@ -76,10 +77,11 @@
                        </div>
                    </div>
                    <div class="col-sm-5 news-content-image">
+
                        <div>
                            <ul>
-                               <li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></li>
-                               <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button standard-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-pencil"></span>&nbsp;&nbsp;Edit</button></li>
+                              <g:link controller="news" action="readNews" params="[id:news.id]"><li style="left: 60%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#read-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></g:link></li>
+                               <g:link controller="news" action="edit" params="[id:news.id]"> <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Edit</button></g:link></li>
                            </ul>
                        </div>
                        <a href= "${createLink(controller:'news', action:'getNewsImage', params: [fileName:news.photo])}">
@@ -89,5 +91,11 @@
            </div>
        </g:each>
     </div>
+
+<script>
+    function readNews(){
+
+    }
+</script>
 </body>
 </html>
