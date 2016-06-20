@@ -159,11 +159,11 @@
                             </div>
                         </g:form>
                     </div>
-                    <li><a href="#" title="Issued Capital" data-toggle="popover3" data-placement="left" data-container="body" type="button" data-html="true" >Paid up Capital</a></li>
+                    <li><a href="#" title="PaidCapital" data-toggle="popover3" data-placement="left" data-container="body" type="button" data-html="true" >Paid up Capital</a></li>
                     <div id="popover-content3" class="hide" style="text-align: center;" >
                         <g:form class="form-inline" role="form" style="width: 100%;" controller="paidCapitalValue" action="save">
                             <div class="form-group">
-                                <input type="text" placeholder="Paid Up Capital" class="form-control" name="paidCapitalvalue" id="paidCapitalvalue" style="margin: 5px;">
+                                <input type="text" placeholder="Paid Up Capital" class="form-control" name="paidCapitalValue" id="paidCapitalValue" style="margin: 5px;">
                                 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
                             </div>
                         </g:form>

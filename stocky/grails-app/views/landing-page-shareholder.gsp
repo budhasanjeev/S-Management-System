@@ -16,7 +16,6 @@
         <div id="my-row" class="row">
             <div class="col-md-4">
                 <img class="user-photo img-circle" src="${createLink(controller:'user', action:'getImage', params: [fileName:userList.userImage])}"/>
-
             </div>
 
             <div class="col-md-8" style="text-align: left;">
