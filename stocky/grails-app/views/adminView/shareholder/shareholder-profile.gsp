@@ -39,7 +39,7 @@
 
                     <tr>
                         <td><span class="glyphicon glyphicon-phone-alt"></span></td>
-                        <td><h5>${user.landLine}</h5></td>
+                        <td><h5>${user.landLine?:"N/A"}</h5></td>
                     </tr>
 
                     <tr>
