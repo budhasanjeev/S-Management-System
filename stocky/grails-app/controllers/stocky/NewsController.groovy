@@ -54,11 +54,15 @@ class NewsController {
 
     def update(){
 
-        def news =News.findById(params.id as Long)
-        news.properties=params
-        news.save(flush: true, failOnError: true)
+        CommonsMultipartFile newsFile = request.getFile('photo')
+        params.myFile = newsFile
 
-        redirect(cnontroller: 'news', action:'index')
+        if(newsService.newsUpdate(params)){
+            redirect(action: 'index')
+            flash.message = "Successfully Updated"
+        }else{
+            flash.message = "Fail to update"
+        }
     }
 
     def readNews(){
