@@ -45,7 +45,6 @@ class NewsService {
 
         news.properties = params
 
-
         if(news.save(flush: true,failOnError: true)){
 
             return true
