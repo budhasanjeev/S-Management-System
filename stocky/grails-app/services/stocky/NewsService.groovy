@@ -27,4 +27,25 @@ class NewsService {
         }
 
     }
+
+    def newsUpdate(params){
+
+        CommonsMultipartFile file = params.myFile
+        String imageName = file.getOriginalFilename()
+
+        params.photo = imageName
+
+        def news =News.findById(params.id as Long)
+
+        news.properties = params
+
+        documentService.newsUpload(params)
+
+        if(news.save(flush: true,failOnError: true)){
+
+            return true
+        }else{
+            return false
+        }
+    }
 }
