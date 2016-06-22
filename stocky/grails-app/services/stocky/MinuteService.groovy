@@ -37,7 +37,7 @@ class MinuteService {
         CommonsMultipartFile file = params.myFile
         String minuteDoc = file.getOriginalFilename()
 
-        def minute = Minute.findById(params.minuteId as Long)
+        def minute = Minute.findById(params.minuteId as long)
         if (!minuteDoc.empty){
             params.minuteDoc = minuteDoc
             minuteService.minuteUpload(params)
