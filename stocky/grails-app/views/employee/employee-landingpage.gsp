@@ -16,7 +16,7 @@
     <div class="row" style="margin-top: 3%; margin-bottom: 2%;">
         <div class="col-md-12">
 
-            <h1 style="display: inline">Shareholder</h1>
+            <h1 style="display: inline">Shareholder List</h1>
         </div>
     </div>
 
@@ -33,7 +33,7 @@
             <tbody>
             <g:each in="${userLists}" var="u" status="i">
                 <tr>
-                    <td><img class="user-photo img-circle" src="${createLink(controller:'user', action:'getImage', params: [fileName:u.userImage])}"/></td>
+                    <td><img class="shareholder-photo img-circle" src="${createLink(controller:'user', action:'getImage', params: [fileName:u.userImage])}"/></td>
                     <td style="vertical-align: middle;">${u.firstName} &nbsp;${u.lastName}</td>
                     <td style="vertical-align: middle;">${shareholderLists[i].city},&nbsp;${shareholderLists[i].district}</td>
                     <td style="vertical-align: middle;">${u.mobileNumber},&nbsp;${u.landLine}</td>
