@@ -16,6 +16,13 @@
             <div class="col-md-4">
                 <fieldset>
                     <legend>General Info</legend>
+
+                        <div class="form-group">
+                            <label for="fatherName">Shareholder Id:<span style="color:red">*</span></label>
+                            <input type="text" class="form-control" name="shareholderId" id="shareholderId" onchange="validateShareholderId()">
+                            <span hidden="true" class="error-sid">Please enter number only</span>
+                        </div>
+
                         <div class="form-group">
                             <label for="fatherName">Father Name:<span style="color:red">*</span></label>
                             <input type="text" class="form-control" name="fatherName" id="fatherName" onchange="validateFatherName()">
@@ -326,6 +333,19 @@
 
     }
 
+    function validateShareholderId(){
+        var sValue = $('shareholderId').val();
+
+        if(isNaN(sValue)){
+            $('.error-sid').attr('hidden',false)
+            return false
+        }else {
+            $('.error-sid').attr('hidden',false)
+            return true
+        }
+
+    }
+
     function validateFatherName() {
         var fatherName = $('#fatherName').val()
         var nameFormat = /^[a-zA-Z\s ]+$/;
@@ -464,13 +484,14 @@
 
         var shareStart = $('#shareStart').val();
         var numberOfShare = $('#numberOfShares').val();
-        var sharevalue = $('#currentShareValue').val();
+        var shareValue = $('#currentShareValue').val();
         var paidCapitalValue = $('#capitalValue').val();
 
+        alert("share Start"+shareStart+"Number of Share" +numberOfShare+"Share Value"+shareValue+"PaidCapital"+paidCapitalValue);
         shareStart = parseInt(shareStart)
         numberOfShare = parseInt(numberOfShare)
 
-        var totalShareValue = parseInt(sharevalue) * numberOfShare
+        var totalShareValue = parseInt(shareValue) * numberOfShare
         var shareEnd = shareStart + numberOfShare - 1;
 
         $('#shareEnd').val(shareEnd);
