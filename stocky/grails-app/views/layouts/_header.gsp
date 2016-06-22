@@ -274,7 +274,7 @@ nav .active a{
 
                 <sec:ifAnyGranted roles="ROLE_EXECUTIVE">
                     <ul class="nav navbar-nav">
-                        <li><g:link controller="executive" action="index">Graphs</g:link></li>
+                        <li><g:link controller="executive" action="executiveLandingPage">Graphs</g:link></li>
                     </ul>
 
                     <ul class="nav navbar-nav pull-right">
