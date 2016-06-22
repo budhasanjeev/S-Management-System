@@ -46,13 +46,22 @@ def minuteService;
         }else{
             flash.message = "Fail to update"
         }
-
-        /*def minute =Minute.findById(params.id as Long)
-        minute.properties=params
-        minute.save(flush: true, failOnError: true)
-
-        redirect(controller: 'minute', action:'index')*/
-
     }
 
+    def delete()
+    {
+        def minuteInstance = Minute.findById(params.id as long)
+
+        def minuteDoc = minuteInstance.minuteDoc
+        println("="+minuteDoc)
+
+        def minutePath = new File("upload/minuteDoc"+minuteDoc)
+
+        minutePath.delete()
+        minuteInstance.delete()
+
+        redirect(action: 'index')
+
+
+    }
 }
