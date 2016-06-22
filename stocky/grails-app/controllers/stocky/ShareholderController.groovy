@@ -60,7 +60,7 @@ class ShareholderController {
     }
 
     def minute(){
-        render (view: 'shareholderMinute.gsp')
+        render (view: '/adminView/minute/addMinute.gsp')
     }
 
     def form(){
