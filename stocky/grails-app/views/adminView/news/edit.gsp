@@ -32,7 +32,7 @@
 
                         <div class="form-group">
                             <label>Photo Upload:</label>
-                            <input type="file"  id="photo" name="photo" value="${news.photo}">
+                            <input type="file"  id="photo" name="photo" value="${news.photo}" >
                         </div>
 
                         <button class="btn standard-button pull-right" type="submit">Update</button>
