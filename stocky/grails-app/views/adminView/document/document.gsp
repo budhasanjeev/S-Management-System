@@ -12,59 +12,59 @@
     <title>Portfolio</title>
 </head>
 <body>
-<div class="container">
-    <div class="row" style="display: inline-table;">
-        <button class="btn btn-default pull-left" data-toggle="modal" data-target="#add-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Add Document</button>
-    </div>
+    <div class="container">
+        <div class="row" style="display: inline-table;">
+            <button class="btn btn-default pull-left" data-toggle="modal" data-target="#add-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Add Document</button>
+        </div>
 
-    %{--add document model--}%
-    <div id="add-news-model" class="modal fade" role="dialog">
-        <div class="modal-dialog">
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header" style="background-color: #337AB7;">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title" style="color: #ffffff;">Document</h4>
-                </div>
-                <div class="modal-body">
+        %{--add document model--}%
+        <div id="add-news-model" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header" style="background-color: #337AB7;">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title" style="color: #ffffff;">Document</h4>
+                    </div>
+                    <div class="modal-body">
 
-                    <fieldset>
-                        <legend>Add Document</legend>
+                        <fieldset>
+                            <legend>Add Document</legend>
 
-                        <g:form controller="document" action="save" enctype="multipart/form-data" style="width: 81%;" class="form-horizontal">
-                            <div class="form-group">
-                                <label class="control-label col-sm-4" >Title:<span style="color:red;"> </span></label>
+                            <g:form controller="document" action="save" enctype="multipart/form-data" style="width: 81%;" class="form-horizontal">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4" >Title:<span style="color:red;"> </span></label>
 
-                                <div class="col-sm-8">
-                                    <input type="text" class="form-control" name="title" id="title">
+                                    <div class="col-sm-8">
+                                        <input type="text" class="form-control" name="title" id="title">
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="form-group">
-                                <label class="control-label col-sm-4" >Date:<span style="color:red;"> </span></label>
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4" >Date:<span style="color:red;"> </span></label>
 
-                                <div class="col-sm-8">
-                                    <input type="date" class="form-control" name="date" id="date">
+                                    <div class="col-sm-8">
+                                        <input type="date" class="form-control" name="date" id="date">
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="control-label col-sm-4" >Upload<span style="color:red;"> </span></label>
-                                <div class="col-lg-8">
-                                    <input type="file" name="document" id="document">
+                                <div class="form-group">
+                                    <label class="control-label col-sm-4" >Upload<span style="color:red;"> </span></label>
+                                    <div class="col-lg-8">
+                                        <input type="file" name="document" id="document">
+                                    </div>
                                 </div>
-                            </div>
-                            <div>
-                                <button style="margin-left: 428px" type="submit" class="btn btn-primary" id="save">Add Document</button>
-                            </div>
-                        </g:form>
-                    </fieldset>
-                </div>
-                <div class="modal-footer" style="background-color: #337AB7;">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <div>
+                                    <button style="margin-left: 428px" type="submit" class="btn btn-primary" id="save">Add Document</button>
+                                </div>
+                            </g:form>
+                        </fieldset>
+                    </div>
+                    <div class="modal-footer" style="background-color: #337AB7;">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
 
     <div class="row"></div>
@@ -74,7 +74,7 @@
             <div>
                 <ul class="onHoverButton">
                     <li>
-                        <button class="btn standard-button" data-toggle="modal" data-target="#editMinute"><span class="glyphicon glyphicon-pencil"></span> Edit</button>
+                        <g:link controller="document" action="edit" params="[document:document.id]"> <button class="btn standard-button" data-toggle="modal" data-target="#editMinute"><span class="glyphicon glyphicon-pencil"></span> Edit</button></g:link>
                         <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button>
                         <button class="btn standard-button"><span class="glyphicon glyphicon-download"></span> Download</button>
                     </li>
