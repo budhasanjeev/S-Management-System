@@ -319,6 +319,11 @@ li a:hover, .dropdown:hover .dropbtn {
     width: 50%;
 }
 
+.shareholder-photo{
+    width: 60px;
+    height: 60px;
+}
+
 .user-info{
     margin-top: 15%;
 }
