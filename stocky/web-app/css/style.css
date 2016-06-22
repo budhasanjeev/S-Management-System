@@ -316,7 +316,8 @@ li a:hover, .dropdown:hover .dropbtn {
 }
 
 .user-photo{
-    width: 50%;
+    width: 60px;
+    height: 60px;
 }
 
 .shareholder-photo{
