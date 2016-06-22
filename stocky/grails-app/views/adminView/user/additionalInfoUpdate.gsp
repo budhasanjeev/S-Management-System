@@ -26,27 +26,27 @@
                     <legend>General Info</legend>
                     <div class="form-group">
                         <label for="fatherName">Father Name:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="fatherName" value="${shareholer.fatherName}" id="fatherName" onchange="validateFatherName()">
+                        <input type="text" class="form-control" name="fatherName" value="${shareholder.fatherName}" id="fatherName" onchange="validateFatherName()">
                         <span hidden="true" class="error-fatherName">Please enter characters only</span>
                     </div>
                     <div class="form-group">
                         <label for="grandFatherName">Grand Father name:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="grandFatherName" value="${shareholer.grandFatherName}" id="grandFatherName" onchange="validateGrandFatherName()">
+                        <input type="text" class="form-control" name="grandFatherName" value="${shareholder.grandFatherName}" id="grandFatherName" onchange="validateGrandFatherName()">
                         <span hidden="true" class="error-grandFatherName">Please enter character only</span>
                     </div>
                     <div class="form-group">
                         <label for="secondContactNo">Second Contact No.<span style="color:red">*</span></label>
-                        <input type="text" class="form-control"  value="${shareholer.secondContactNo}" name="secondContactNo"  id="secondContactNo">
+                        <input type="text" class="form-control"  value="${shareholder.secondContactNo}" name="secondContactNo"  id="secondContactNo">
                     </div>
                     <div class="form-group">
                         <label for="secondContactNo">City:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="city" id="city" value="${shareholer.city}" onchange="validateCity()">
+                        <input type="text" class="form-control" name="city" id="city" value="${shareholder.city}" onchange="validateCity()">
                         <span hidden="true" class="error-city">please enter city name</span>
                     </div>
                     <div class="form-group">
                         <label for="zone">Zone:<span style="color:red">*</span></label>
 
-                        <select name="zone" id="zone" class="form-control" value="${shareholer.zone}" onchange="printDistrict(this.value)">
+                        <select name="zone" id="zone" class="form-control" value="${shareholder.zone}" onchange="printDistrict(this.value)">
                             <option value="Select a zone">Select a Zone</option>
                             <option value="Bagmati">Bagmati</option>
                             <option value="Bheri">Bheri</option>
@@ -138,17 +138,17 @@
                     <legend>Citizenship</legend>
                     <div class="form-group">
                         <label for="citizenshipNo">CitizenShip Number:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="citizenshipNo" id="citizenshipNo" value="${shareholer.citizenshipNo}" onchange="checkCitizenship()">
+                        <input type="text" class="form-control" name="citizenshipNo" id="citizenshipNo" value="${shareholder.citizenshipNo}" onchange="checkCitizenship()">
                         <span hidden="true" class="error-citizenshipNum">Please enter numerical value</span>
                     </div>
                     <div class="form-group">
                         <label for="citizenshipIssueDistrict">Issued-district:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="citizenshipIssueDistrict" id="citizenshipIssueDistrict" value="${shareholer.citizenshipIssueDistrict}" onchange="isssuedDistrict()">
+                        <input type="text" class="form-control" name="citizenshipIssueDistrict" id="citizenshipIssueDistrict" value="${shareholder.citizenshipIssueDistrict}" onchange="isssuedDistrict()">
                         <span hidden="true" class="error-issuedDistrict">Please enter the district name</span>
                     </div>
                     <div class="form-group">
                         <label class="control-label col-sm-4">Citizenship PhotoCopy:<span style="color:red">*</span></label>
-                        <input type="file" name="citizenShipPhoto" value="${shareholer.citizenShipPhoto}" id="citizenship-photo">
+                        <input type="file" name="citizenShipPhoto" value="${shareholder.citizenshipPhoto}" id="citizenship-photo">
                     </div>
                 </fieldset>
             </div>
