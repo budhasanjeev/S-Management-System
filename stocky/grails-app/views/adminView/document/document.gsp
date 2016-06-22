@@ -82,7 +82,7 @@
             </div>
             <div class="col-md-4 itemCenter" style="height: 100%;">
                 <a href= "${createLink(controller:'document', action:'getDocumentImage', params: [fileName:document.document])}">
-                    <img style="height: 60px; width: 130px;" src="${createLink(controller:'document', action:'getFormImage', params: [fileName:document.document])}/">
+                    <img style="height: 60px; width: 130px;" src="${createLink(controller:'document', action:'getDocumentImage', params: [fileName:document.document])}/">
                 </a>
             </div>
             <div class="col-lg-8">
