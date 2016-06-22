@@ -12,7 +12,6 @@ class UserController {
 
     def editSave(){
         String user_id = params.user_id
-//        println(user_id.size())
         def user = User.findById(params.user_id as long)
         render view: '/adminView/user/editSave', model:[user:user]
     }
@@ -60,9 +59,26 @@ class UserController {
     }
 
     def update(){
-        String role = userService.updateUser(params)
-        redirect(action: 'filterUser',params: [id:role])
-//        redirect(action: 'index')
+
+        def role = params.roles
+
+        def user= User.findById(params.userId as long)
+
+        def shareholder =Shareholder.findByUser(user)
+
+        def share = Share.findByUser(user)
+
+        userService.updateUser(params)
+
+        if(role == 'ROLE_SHAREHOLDER' || role == 'ROLE_EXECUTIVE'){
+            render(view:'/adminView/user/additionalInfoUpdate', model: [user:user,shareholder:shareholder,share:share])
+        }
+        else{
+            String roles = userService.updateUser(params)
+
+            redirect(action: 'filterUser',params: [id:roles])
+        }
+
     }
 
     def delete(){
