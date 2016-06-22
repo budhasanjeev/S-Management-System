@@ -13,7 +13,7 @@
 
 </head>
 <body>
-<div class="container">
+<div class="container" style="width: 700px;">
     <div class="row" style="display: inline-table;">
         <button class="btn btn-default pull-left" data-toggle="modal" data-target="#add-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Add Form</button>
     </div>
@@ -91,8 +91,7 @@
 
     <div class="row"></div>
 
-    <g:each in="${formList}" var="f">
-        <div class="col-lg-5 highlight minute">
+        %{--<div class="col-lg-5 highlight minute">
             <div>
                 <ul class="onHoverButton">
                     <li>
@@ -104,10 +103,31 @@
                 <img style="height: 60px; width: 130px;" src="${createLink(controller:'form', action:'getFormImage', params: [fileName:f.formDoc])}" alt="Form"/>
             </div>
             <div class="col-lg-8">
-                <h3>${f.title}</h3>
+                <h3></h3>
             </div>
-        </div>
-    </g:each>
+        </div>--}%
+
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr >
+                    <th colspan="2" style="text-align: center;">
+                        <h3>Form</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th style="text-align: center"><h4>Title of the form</h4></th>
+                    <th style="text-align: center"><h4>Action</h4></th>
+                </tr>
+            </thead>
+            <tbody>
+            <g:each in="${formList}" var="f">
+                <tr>
+                    <td style="text-align: center">${f.title.toUpperCase()}</td>
+                    <td style="text-align: center"><g:link controller="form" action="downloadForm" params="[form:f.formDoc]"><button class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download</button></g:link></td>
+                </tr>
+            </g:each>
+            </tbody>
+        </table>
 
 </div>
 </body>
