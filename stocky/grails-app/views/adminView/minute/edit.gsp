@@ -19,24 +19,32 @@
                 <fieldset>
                     <legend>Edit Minutes</legend>
 
-                    <g:form controller="news" action="update" enctype="multipart/form-data">
+                    <g:form controller="minute" action="update" enctype="multipart/form-data" style="width: 81%;" class="form-horizontal">
+                        <input type="hidden" name="minuteId" value="${minute.id}" />
                         <div class="form-group">
-                            <label for="news-title">Title:</label>
-                            <input type="text" class="form-control" value="${news.title}" id="news-title" name="title">
+                            <label class="control-label col-sm-4" >Title:<span style="color:red;"> *</span></label>
+
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" name="title" id="title" value="${minute.title}">
+                            </div>
                         </div>
 
                         <div class="form-group">
-                            <label for="comment">Date:</label>
-                            <textarea class="form-control" rows="5" id="comment" placeholder="" name="content">${news.content}</textarea>
-                        </div>
+                            <label class="control-label col-sm-4" >Date:<span style="color:red;"> *</span></label>
 
+                            <div class="col-sm-8">
+                                <input type="date" class="form-control" name="event_date" id="date" value="${minute.event_date}">
+                            </div>
+                        </div>
                         <div class="form-group">
-                            <label>Upload:</label>
-                            <input type="file"  id="photo" value="${news.photo}">
+                            <label class="control-label col-sm-4" >Upload<span style="color:red;"> *</span></label>
+                            <div class="col-lg-8">
+                                <input type="file" name="minuteDoc" id="minuteDoc" value="${minute.minuteDoc}">
+                            </div>
                         </div>
-
-                        <button class="btn standard-button pull-right" type="submit">Update</button>
-                        <input type="hidden" value="${news.id}" name= "id"/>
+                        <div>
+                            <button style="margin-left: 428px" type="submit" class="btn standard-button" id="save">MinuteUpdate</button>
+                        </div>
                     </g:form>
                 </fieldset>
 

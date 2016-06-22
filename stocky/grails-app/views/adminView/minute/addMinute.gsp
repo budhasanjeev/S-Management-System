@@ -83,7 +83,7 @@
             <div>
                 <ul class="onHoverButton">
                     <li>
-                        <g:link controller="minute" action="edit" params="[]"><button class="btn standard-button"><span class="glyphicon glyphicon-pencil"></span> Edit</button></g:link>
+                        <g:link controller="minute" action="edit" params="[id:v.id]"><button class="btn standard-button"><span class="glyphicon glyphicon-pencil"></span> Edit</button></g:link>
                         <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button>
                     </li>
                 </ul>
