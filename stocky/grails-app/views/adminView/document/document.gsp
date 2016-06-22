@@ -75,8 +75,8 @@
                 <ul class="onHoverButton">
                     <li>
                         <g:link controller="document" action="edit" params="[document:document.id]"> <button class="btn standard-button" data-toggle="modal" data-target="#editMinute"><span class="glyphicon glyphicon-pencil"></span> Edit</button></g:link>
-                        <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button>
-                        <button class="btn standard-button"><span class="glyphicon glyphicon-download"></span> Download</button>
+                        <g:link controller="document" action="delete" params="[document: document.id]"> <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button></g:link>
+                        <g:link controller="document" action="downloadDocument" params="[document:document.document]"> <button class="btn standard-button"><span class="glyphicon glyphicon-download"></span> Download</button></g:link>
                     </li>
                 </ul>
             </div>

@@ -18,7 +18,7 @@
     <fieldset style="text-align: center;">
         <legend>Edit Document</legend>
 
-        <g:form controller="document" action="update" enctype="multipart/form-data"" class="form-horizontal">
+        <g:form controller="document" action="update" enctype="multipart/form-data" class="form-horizontal">
             <div class="form-group">
                 <label class="control-label col-sm-2" >Title:<span style="color:red;"> </span></label>
                 <div class="col-sm-8 ">
