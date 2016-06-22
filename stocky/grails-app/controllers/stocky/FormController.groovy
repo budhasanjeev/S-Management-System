@@ -1,5 +1,6 @@
 package stocky
 
+import grails.converters.JSON
 import grails.plugin.springsecurity.annotation.Secured
 import org.springframework.web.multipart.commons.CommonsMultipartFile
 
@@ -31,5 +32,24 @@ class FormController {
 
         def inputStream = new FileInputStream(sourceImage)
         render file: inputStream, contentType:  '*/*'
+    }
+
+    def downloadForm(){
+
+        String fileName = params.form
+
+        def file = new File("upload/form/"+fileName)
+
+        if (file.exists()) {
+            response.setContentType("application/oc tet-stream")
+            response.setHeader("Content-disposition", "filename=${file.name}")
+            response.outputStream << file.bytes
+            response.getOutputStream().flush();
+            response.getOutputStream().close();
+            return;
+        }else{
+            return render(["File is already deleted"] as JSON)
+        }
+
     }
 }

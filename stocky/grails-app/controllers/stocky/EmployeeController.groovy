@@ -21,6 +21,6 @@ class EmployeeController {
 
         }
 
-        render(view: '/Employee/Employee-landingpage', model: [userLists:userLists,shareholderLists:shareholderLists])
+        render(view: '/employee/employee-landingpage', model: [userLists:userLists,shareholderLists:shareholderLists])
     }
 }

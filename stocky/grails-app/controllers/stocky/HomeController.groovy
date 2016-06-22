@@ -40,10 +40,14 @@ class HomeController {
             if (SpringSecurityUtils.ifAllGranted("ROLE_SHAREHOLDER")){
 
                 User currentLoggedInUser = springSecurityService.getCurrentUser();
-                def shareValue = Share.findAllByUser(currentLoggedInUser);
+                def shareValue = ShareValue.list([max: 1,sort: "createdDate",order: "desc"]);
+                def share = Share.findAllByUser(currentLoggedInUser);
                 def shareHolder = Shareholder.findByUser(currentLoggedInUser)
+                def authorizedCapitalValue = AuthorizedCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
+                def issuedCapitalValue = IssuedCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
+                def paidCapitalValue = PaidCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
 
-                render(view: '/shareholder/shareholderView',model: [shareValue: shareValue,userInfo:currentLoggedInUser,additional:shareHolder])
+                render(view: '/shareholder/shareholderView',model: [share:share,authorizedCapitalValue:authorizedCapitalValue.authorizedCapitalValue.join(),issuedCapitalValue:issuedCapitalValue.issuedCapitalValue.join(),paidCapitalValue:paidCapitalValue.paidCapitalValue.join(),shareValue: shareValue.shareValue.join(),userInfo:currentLoggedInUser,additional:shareHolder])
             }
             if (SpringSecurityUtils.ifAllGranted("ROLE_EMPLOYEE")){
 
@@ -51,7 +55,7 @@ class HomeController {
             }
             if (SpringSecurityUtils.ifAllGranted("ROLE_EXECUTIVE")){
 
-                redirect(controller: 'executive',action: 'index')
+                redirect(controller: 'executive',action: 'executiveLandingPage')
             }
         }
         else{
@@ -89,7 +93,7 @@ class HomeController {
 
         def newsList = News.findAll()
 
-        render (view: '/adminView/add-news',model: [newsLists:newsList])
+        render (view: '/news',model: [newsLists:newsList])
     }
 
     def gallery(){
@@ -105,7 +109,7 @@ class HomeController {
     }
 
     def addNews(){
-        render (view: '/adminView/add-news')
+        render (view: '/adminView/news/add-news')
     }
 
     def addMinute(){
