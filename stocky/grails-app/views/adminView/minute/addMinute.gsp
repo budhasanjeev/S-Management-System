@@ -84,7 +84,7 @@
                 <ul class="onHoverButton">
                     <li>
                         <g:link controller="minute" action="edit" params="[id:v.id]"><button class="btn standard-button"><span class="glyphicon glyphicon-pencil"></span> Edit</button></g:link>
-                        <button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button>
+                        <g:link controller="minute" action="delete" params="[id:v.id]"><button class="btn standard-button"><span class="glyphicon glyphicon-trash"></span> Delete</button></g:link>
                     </li>
                 </ul>
             </div>
@@ -98,8 +98,14 @@
                 <h4 id="title_${v.id}" >Title: ${v.title}</h4>
                 <h5 id="date_${v.event_date}">Date: ${v.event_date}</h5>
             </div>
+
         </div>
 </g:each>
+    <g:if test="${minutesList.size()< 1}">
+        <div>
+            <p>No record found</p>
+        </div>
+    </g:if>
 </div>
 
 
