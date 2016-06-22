@@ -27,4 +27,13 @@ def minuteService;
 
     }
 
+    def edit(){
+
+
+    }
+
+    def update(){
+
+    }
+
 }
