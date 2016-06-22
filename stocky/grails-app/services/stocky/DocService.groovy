@@ -24,4 +24,28 @@ class DocService {
            return false
        }
    }
+
+    def documentUpdate(params){
+        CommonsMultipartFile file = params.myFile
+        String imageName = file.getOriginalFilename()
+
+        def document = Document.findById(params.id as Long)
+        if (!imageName.empty){
+            params.document = imageName
+            documentService.documentUpload(params)
+        }
+        else {
+            params.document = document.document
+        }
+
+        document.properties = params
+
+        if(document.save(flush: true,failOnError: true)){
+
+            return true
+        }else{
+            return false
+        }
+
+    }
 }
