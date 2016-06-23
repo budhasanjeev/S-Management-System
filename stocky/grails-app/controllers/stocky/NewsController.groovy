@@ -80,10 +80,8 @@ class NewsController {
 
 
         def photoPath = new File("upload/photo"+photo)
-        def contentPath = new File("upload/content"+content)
 
         photoPath.delete()
-        contentPath.delete()
         newsInstance.delete()
 
         redirect(action: 'index')
