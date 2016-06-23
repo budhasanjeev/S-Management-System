@@ -55,7 +55,7 @@ class ReportController {
                 def shareObject = []
                 shareObject.add(totalShareAmount)
                 shareObject.add(totalShareNumber)
-                shareObject.add(share[maxIndex].shareAmount)
+                shareObject.add(share[maxIndex]?.shareAmount)
 
                 shareInfoListsC.add(shareObject)
             }

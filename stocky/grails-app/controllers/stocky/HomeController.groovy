@@ -43,8 +43,8 @@ class HomeController {
                 def shareValue = ShareValue.list([max: 1,sort: "createdDate",order: "desc"]);
                 def share = Share.findAllByUser(currentLoggedInUser);
                 def shareHolder = Shareholder.findByUser(currentLoggedInUser)
-                def authorizedCapitalValue = AuthorizedCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
                 def issuedCapitalValue = IssuedCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
+                def authorizedCapitalValue = AuthorizedCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
                 def paidCapitalValue = PaidCapitalValue.list([max: 1,sort: "createdDate",order: "desc"]);
 
                 render(view: '/shareholder/shareholderView',model: [share:share,authorizedCapitalValue:authorizedCapitalValue.authorizedCapitalValue.join(),issuedCapitalValue:issuedCapitalValue.issuedCapitalValue.join(),paidCapitalValue:paidCapitalValue.paidCapitalValue.join(),shareValue: shareValue.shareValue.join(),userInfo:currentLoggedInUser,additional:shareHolder])

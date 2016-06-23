@@ -70,4 +70,24 @@ class NewsController {
         def news =News.findById(params.newsId as long)
         render(view:'/adminView/news/readNews',model:[newsInstance:news])
     }
+
+    def delete()
+    {
+        def newsInstance = News.findById(params.id as long)
+
+        def photo = newsInstance.photo
+        def content = newsInstance.content
+
+
+        def photoPath = new File("upload/photo"+photo)
+        def contentPath = new File("upload/content"+content)
+
+        photoPath.delete()
+        contentPath.delete()
+        newsInstance.delete()
+
+        redirect(action: 'index')
+
+
+    }
 }
