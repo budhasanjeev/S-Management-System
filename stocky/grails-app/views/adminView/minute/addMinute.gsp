@@ -101,7 +101,7 @@
 
         </div>
 </g:each>
-    <g:if test="${minutesList.size()< 1}">
+    <g:if test="${minutesList?.size()< 1}">
         <div class="alert alert-info">
             <p>no minutes record found</p>
         </div>
