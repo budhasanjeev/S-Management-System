@@ -106,8 +106,8 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="thumbnail gallery-thumbnail" style="height: 100px; width: 160px;">
-                            <a href="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:additional.citizenShipPhoto])}" class="fancybox" rel="group">
-                                <img style="height: 100%; width: 100%;" src="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:additional.citizenShipPhoto])}">
+                            <a href="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:additional.citizenshipPhoto])}" class="fancybox" rel="group">
+                                <img style="height: 100%; width: 100%;" src="${createLink(controller:'user', action:'getCitizenShip', params: [fileName:additional.citizenshipPhoto])}">
                             </a>
                         </div>
                     </div>
