@@ -95,7 +95,11 @@
     </g:each>
 
 
-
+    <g:if test="${docList.size() < 1}">
+        <div class="alert alert-info">
+            <p>no document found</p>
+        </div>
+    </g:if>
 
 
     %{--<div id="left-news-content" class="row">--}%
