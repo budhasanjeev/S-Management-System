@@ -18,7 +18,7 @@
     <fieldset style="text-align: center;">
         <legend>Edit Document</legend>
 
-        <g:form controller="document" action="update" enctype="multipart/form-data" class="form-horizontal">
+        <g:form controller="document" action="update" enctype="multipart/form-data" class="form-horizontal" onsubmit="return validateDocument()">
             <div class="form-group">
                 <label class="control-label col-sm-2" >Title:<span style="color:red;"> </span></label>
                 <div class="col-sm-8 ">
@@ -44,7 +44,29 @@
     </fieldset>
 </div>
 
+<script>
+    function validateDocument(){
+        var title = $('#title').val()
+        var date = $('#date').val()
+        var document = $('#document').val()
 
+        if(title==""){
+            alert("Please provide the title of the document")
+            return false
+
+        }else if(date==""){
+            alert("Please provide the date")
+            return false
+        }else if(document==""){
+            alert("Please attach the document")
+            return false
+        }
+        else {
+            return true
+        }
+
+    }
+</script>
 
 </body>
 </html>
