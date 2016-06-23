@@ -30,15 +30,11 @@ class ShareholderController {
         CommonsMultipartFile signature = request.getFile('signature')
         params.myFile = signature
 
-        CommonsMultipartFile shareCertificate = request.getFile('shareCertificate')
-        params.myFile1 = shareCertificate
-
         CommonsMultipartFile citizenShip = request.getFile('citizenShipPhoto')
         params.myFile2 = citizenShip
 
         String roles = shareholderService.updateAdditionalUser(params)
-/*
-        redirect(action: 'filterUser',params: [id:roles])*/
+
         redirect(controller:'home', action: 'index')
 
     }
@@ -60,12 +56,32 @@ class ShareholderController {
     }
 
     def minute(){
-        render (view: '/adminView/minute/addMinute.gsp')
+        def minuteInstanceList = Minute.findAll()
+        render (view: '/shareholder/shareholderMinute',model: [minuteInstanceList:minuteInstanceList])
     }
 
     def form(){
-        println('adsfd');
-        render (view: 'shareholderForm.gsp')
+        def formInstanceList = Form.findAll()
+        render (view: '/shareholder/shareholderForm',model: [formInstanceList:formInstanceList])
     }
 
+    def document(){
+        def documentInstanceList = Document.findAll()
+
+        render(view: '/shareholder/shareholderDocument',model: [documentInstanceList:documentInstanceList ])
+    }
+
+    def news(){
+        def newsInstanceList = News.findAll()
+
+        String marqueeList = ""
+
+        if(newsInstanceList.size()>0){
+            newsInstanceList.each {
+                marqueeList += "${it.title}"+ "  "
+            }
+        }
+
+        render (view: '/shareholder/shareholderNews',model: [newsInstanceList:newsInstanceList,marqueeList:marqueeList])
+    }
 }
