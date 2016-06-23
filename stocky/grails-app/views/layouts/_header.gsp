@@ -241,10 +241,10 @@ nav .active a{
                 <sec:ifAnyGranted roles="ROLE_SHAREHOLDER">
                     <ul class="nav navbar-nav">
                         <li><g:link controller="home" action="index">Home</g:link></li>
-                        <li><g:link controller="home" action="news">News</g:link></li>
+                        <li><g:link controller="shareholder" action="news">News</g:link></li>
                         <li><g:link controller="shareholder" action="minute">Minutes</g:link></li>
                         <li><g:link controller="shareholder" action="form">Form</g:link></li>
-                        <li><g:link controller="home" action="addDocuments">Documents</g:link></li>
+                        <li><g:link controller="shareholder" action="document">Documents</g:link></li>
                     </ul>
 
                     <ul class="nav navbar-nav pull-right">
