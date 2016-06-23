@@ -21,115 +21,78 @@
         <input type="hidden" name="user_id" id="user_id" value="${user.id}">
       %{--  <input type="hidden" value="${user.id}" name="userId"/>--}%
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-md-8">
                 <fieldset>
                     <legend>General Info</legend>
-                    <div class="form-group">
-                        <label for="fatherName">Father Name:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="fatherName" value="${shareholder.fatherName}" id="fatherName" onchange="validateFatherName()">
-                        <span hidden="true" class="error-fatherName">Please enter characters only</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="grandFatherName">Grand Father name:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="grandFatherName" value="${shareholder.grandFatherName}" id="grandFatherName" onchange="validateGrandFatherName()">
-                        <span hidden="true" class="error-grandFatherName">Please enter character only</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="secondContactNo">Second Contact No.<span style="color:red">*</span></label>
-                        <input type="text" class="form-control"  value="${shareholder.secondContactNo}" name="secondContactNo"  id="secondContactNo">
-                    </div>
-                    <div class="form-group">
-                        <label for="secondContactNo">City:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="city" id="city" value="${shareholder.city}" onchange="validateCity()">
-                        <span hidden="true" class="error-city">please enter city name</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="zone">Zone:<span style="color:red">*</span></label>
 
-                        <select name="zone" id="zone" class="form-control" value="${shareholder.zone}" onchange="printDistrict(this.value)">
-                            <option value="Select a zone">Select a Zone</option>
-                            <option value="Bagmati">Bagmati</option>
-                            <option value="Bheri">Bheri</option>
-                            <option value="Dhawalagari"> Dhawalagari </option>
-                            <option value="Gandaki"> Gandaki </option>
-                            <option value="Janakpur"> Janakpur </option>
-                            <option value="Karnali"> Karnali </option>
-                            <option value="Koshi"> Koshi </option>
-                            <option value="Lumbini"> Lumbini </option>
-                            <option value="Mahakali"> Mahakali </option>
-                            <option value="Mechi"> Mechi </option>
-                            <option value="Narayani"> Narayani </option>
-                            <option value="Rapti"> Rapti </option>
-                            <option value="Sagarmatha"> Sagarmatha </option>
-                            <option value="Seti"> Seti </option>
-                        </select>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="shareholder-id">Shareholder id:<span style="color:red">*</span></label>
+                            <input type="text" class="form-control" name="shareholderId" value="${shareholder.shareholderId}" id="shareholder-id" onchange="validateShareholderId()">
+                            <span hidden="true" class="error-shareholder-id">Please enter characters only</span>
+                        </div>
 
-                        <span hidden="true" class="error-zone">Please enter the district name</span>
-                    </div>
-                    <div class="form-group">
-                        <label for="secondContactNo">District:<span style="color:red">*</span></label>
-                        <select class="form-control" id="districtList" name="district">
+                        <div class="form-group">
+                            <label for="fatherName">Father Name:<span style="color:red">*</span></label>
+                            <input type="text" class="form-control" name="fatherName" value="${shareholder.fatherName}" id="fatherName" onchange="validateFatherName()">
+                            <span hidden="true" class="error-fatherName">Please enter characters only</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="grandFatherName">Grand Father name:<span style="color:red">*</span></label>
+                            <input type="text" class="form-control" name="grandFatherName" value="${shareholder.grandFatherName}" id="grandFatherName" onchange="validateGrandFatherName()">
+                            <span hidden="true" class="error-grandFatherName">Please enter character only</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="secondContactNo">Second Contact No.<span style="color:red">*</span></label>
+                            <input type="text" class="form-control"  value="${shareholder.secondContactNo}" name="secondContactNo"  id="secondContactNo">
+                        </div>
 
-                        </select>
-                        <span hidden="true" class="error-district">Please enter the district name</span>
                     </div>
 
-                    <div class="form-group">
-                        <label class="control-label col-sm-4">Signature</label>
-                        <input type="file" name="signature" id="signature">
-                    </div>
-                </fieldset>
-            </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="secondContactNo">City:<span style="color:red">*</span></label>
+                            <input type="text" class="form-control" name="city" id="city" value="${shareholder.city}" onchange="validateCity()">
+                            <span hidden="true" class="error-city">please enter city name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="zone">Zone:<span style="color:red">*</span></label>
 
-            <div class="col-md-4">
-                <fieldset>
-                    <legend>Share</legend>
-                    <div class="form-group">
-                        <label for="numberOfShares">Number of shares:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="numberOfShares" value="${share.numberOfShares}" id="numberOfShares"  onchange="form()">
-                        <span hidden="true" class="error-numberShare">Please enter the numeric character only</span>
-                    </div>
+                            <select name="zone" id="zone" class="form-control" value="${shareholder.zone}" onchange="printDistrict(this.value)">
+                                <option value="Select a zone">Select a Zone</option>
+                                <option value="Bagmati">Bagmati</option>
+                                <option value="Bheri">Bheri</option>
+                                <option value="Dhawalagari"> Dhawalagari </option>
+                                <option value="Gandaki"> Gandaki </option>
+                                <option value="Janakpur"> Janakpur </option>
+                                <option value="Karnali"> Karnali </option>
+                                <option value="Koshi"> Koshi </option>
+                                <option value="Lumbini"> Lumbini </option>
+                                <option value="Mahakali"> Mahakali </option>
+                                <option value="Mechi"> Mechi </option>
+                                <option value="Narayani"> Narayani </option>
+                                <option value="Rapti"> Rapti </option>
+                                <option value="Sagarmatha"> Sagarmatha </option>
+                                <option value="Seti"> Seti </option>
+                            </select>
 
-                    <div class="form-group">
-                        <label for="shareStart">Share Start No.:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="shareStart" value="${share.shareStart}" id="shareStart"  onchange="getShareValue()">
-                        <span hidden="true" class="error-start">Please enter the numeric character only</span>
-                    </div>
+                            <span hidden="true" class="error-zone">Please enter the district name</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="secondContactNo">District:<span style="color:red">*</span></label>
+                            <select class="form-control" id="districtList" name="district">
 
-                    <div class="form-group">
-                        <label for="shareEnd">Share End No.:<span style="color:red">*</span></label>
-                        <input type="text" class="form-control" name="shareEnd" value="${share. shareEnd}" id="shareEnd">
-                        <span hidden="true" class="error-end">Please enter the numeric character only</span>
+                            </select>
+                            <span hidden="true" class="error-district">Please enter the district name</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="control-label col-sm-4">Signature</label>
+                            <input type="file" name="signature" id="signature" value="${shareholder.signature}">
+                        </div>
                     </div>
 
 
-                    <div class="form-group">
-                        <label for="shareAmount">Amount:<span style="color:red">*</span></label>
-                        <input type="number" class="form-control" value="${share.shareAmount}" name="shareAmount"  id="shareAmount" >
-                        <span hidden="true" class="error-shareAmt">Please enter the numeric character only</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="sharePercent">Percent:<span style="color:red">*</span></label>
-                        <input type="number" class="form-control" value="${share.sharePercent}" name="sharePercent"  id="sharePercent">
-                        <span hidden="true" class="error-sharePercent">Please enter the numeric character only</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="control-label ">Share Certificate no.:</label>
-                        <input class="form-control" type="text" name="shareCertificateNumber"  value="${share.shareCertificateNumber}" id="certificateNum"  onchange="validateCertificateNum()">
-                        <span hidden="true" class="error-shareCertificateNum">Please enter the numeric character only</span>
-                    </div>
-
-                    <div class="form-group">
-                        <label for="purchasedDate">Purchased Date:<span style="color:red">*</span></label>
-                        <input type="date" class="form-control" name="purchasedDate" alue="${share.purchasedDate}" id="purchasedDate">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="control-label col-sm-4">Share Certificate:<span style="color:red">*</span></label>
-                        <input type="file" name="shareCertificate"  value="${share.shareCertificate}" id="shareCertificate">
-                    </div>
                 </fieldset>
             </div>
 
@@ -332,6 +295,11 @@
 
 
 
+
+    }
+
+
+    function validateShareholderId(){
 
     }
 
