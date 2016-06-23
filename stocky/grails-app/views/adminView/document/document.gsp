@@ -31,7 +31,8 @@
                         <fieldset>
                             <legend>Add Document</legend>
 
-                            <g:form controller="document" action="save" enctype="multipart/form-data" style="width: 81%;" class="form-horizontal">
+                            <g:form controller="document" action="save" enctype="multipart/form-data" style="width: 81%;"
+                                    class="form-horizontal" onsubmit="return (validateDocument())">
                                 <div class="form-group">
                                     <label class="control-label col-sm-4" >Title:<span style="color:red;"> </span></label>
 
@@ -119,6 +120,29 @@
 
 
 </div>
+<script>
+    function validateDocument(){
+        var title = $('#title').val()
+        var date = $('#date').val()
+        var document = $('#document').val()
+
+        if(title==""){
+            alert("Please provide the title of the document")
+            return false
+
+        }else if(date==""){
+            alert("Please provide the date")
+            return false
+        }else if(document==""){
+            alert("Please attach the document")
+            return false
+        }
+        else {
+            return true
+        }
+
+    }
+</script>
 
 
 </body>
