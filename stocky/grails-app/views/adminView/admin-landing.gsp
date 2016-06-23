@@ -133,9 +133,9 @@
                     <!--shareholder menu -->
                     <li><a href="#" title="Enter Share Value" data-toggle="popover" data-placement="left" data-container="body" type="button" data-html="true" >Update Share Value</a></li>
                     <div id="popover-content" class="hide" style="text-align: center;" >
-                        <g:form class="form-inline" role="form" style="width: 100%;" controller="shareValue" action="save">
+                        <g:form class="form-inline" style="width: 100%;" controller="shareValue" action="save">
                             <div class="form-group">
-                                <input type="text" placeholder="Sharevalue" class="form-control" name="shareValue" id="shareValue" style="margin: 5px;">
+                                <input type="text" placeholder="Sharevalue" class="form-control" name="shareValue" id="shareValue" style="margin: 5px;" required="true">
                                 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
                             </div>
                         </g:form>
@@ -145,7 +145,7 @@
                     <div id="popover-content1" class="hide" style="text-align: center;" >
                         <g:form class="form-inline" role="form" style="width: 100%;" controller="authorizedCapitalValue" action="save">
                             <div class="form-group">
-                                <input type="text" placeholder="authorized-capital" class="form-control" name="authorizedCapitalValue" id="authorizedCapitalValue" style="margin: 5px;">
+                                <input type="text" placeholder="authorized-capital" class="form-control" name="authorizedCapitalValue" id="authorizedCapitalValue" style="margin: 5px;" required="true">
                                 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
                             </div>
                         </g:form>
@@ -154,7 +154,7 @@
                     <div id="popover-content2" class="hide" style="text-align: center;" >
                         <g:form class="form-inline" role="form" style="width: 100%;" controller="issuedCapitalValue" action="save">
                             <div class="form-group">
-                                <input type="text" placeholder="Issued Capital" class="form-control" name="issuedCapitalValue" id="issuedCapitalvalue" style="margin: 5px;">
+                                <input type="text" placeholder="Issued Capital" class="form-control" name="issuedCapitalValue" id="issuedCapitalvalue" style="margin: 5px;" required="true">
                                 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
                             </div>
                         </g:form>
@@ -163,7 +163,7 @@
                     <div id="popover-content3" class="hide" style="text-align: center;" >
                         <g:form class="form-inline" role="form" style="width: 100%;" controller="paidCapitalValue" action="save">
                             <div class="form-group">
-                                <input type="text" placeholder="Paid Up Capital" class="form-control" name="paidCapitalValue" id="paidCapitalValue" style="margin: 5px;">
+                                <input type="text" placeholder="Paid Up Capital" class="form-control" name="paidCapitalValue" id="paidCapitalValue" style="margin: 5px;" required="true">
                                 <button type="submit" class="btn btn-primary" style="float: right;">Update</button>
                             </div>
                         </g:form>
@@ -324,6 +324,15 @@
             });
         });
     });
+
+
+    function validateShare(){
+        alert("hello Anju");
+
+        var shareValue = $('#shareV').serialize();
+        alert(shareValue)
+        return false;
+    }
 </script>
 </body>
 </html>
