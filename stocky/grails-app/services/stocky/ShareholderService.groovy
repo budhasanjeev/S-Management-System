@@ -50,29 +50,30 @@ class ShareholderService {
         final String signature_name = signature.getOriginalFilename()
         params.signature = signature_name
 
-        /*getting shareCertificate image name*/
-        CommonsMultipartFile shareCertificate = params.myFile1
-        final String shareCertificate_name = shareCertificate.getOriginalFilename()
-        params.shareCertificate = shareCertificate_name
-
         /*getting citizenShip image name*/
         CommonsMultipartFile citizenShip = params.myFile2
         final String citizenPhoto_name = citizenShip.getOriginalFilename()
         params.citizenshipPhoto = citizenPhoto_name
 
-
-
-        imageUploadService.uploadSignature(params)
-        imageUploadService.uploadShareCertificate(params)
-        imageUploadService.uploadCitizenShip(params)
-
         def user = User.findById(params.user_id as long)
         def shareholderInstance = Shareholder.findByUser(user)
+
+        if(signature_name.empty){
+            params.signature = shareholderInstance.signature
+        }else{
+            imageUploadService.uploadSignature(params)
+        }
+
+        if(citizenPhoto_name.empty){
+           params.citizenshipPhoto = shareholderInstance.citizenshipPhoto
+        }else {
+            imageUploadService.uploadCitizenShip(params)
+        }
 
         shareholderInstance.properties = params
         shareholderInstance.user = user;
 
-        shareholderInstance.save(flush: true,failOnError: true) && shareService.shareSave(params)
+        shareholderInstance.save(flush: true,failOnError: true)
 
         def role = UserRole.findByUser(user).role.authority
         return role

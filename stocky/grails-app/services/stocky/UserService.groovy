@@ -54,7 +54,7 @@ class UserService  {
 
         photoList.add(role)
         photoList.add(user?.userImage)
-        photoList.add(shareholder?.citizenShipPhoto)
+        photoList.add(shareholder?.citizenshipPhoto)
         photoList.add(share?.shareCertificate)
         photoList.add(shareholder?.signature)
 
