@@ -26,7 +26,7 @@
         </tr>
         </thead>
         <tbody>
-        <g:each in="${formInstance}" var="f">
+        <g:each in="${formInstanceList}" var="f">
             <tr>
                 <td style="text-align: center">${f.title.toUpperCase()}</td>
                 <td style="text-align: center"><g:link controller="form" action="downloadForm" params="[form:f.formDoc]"><button class="btn btn-default"><span class="glyphicon glyphicon-download"></span> Download</button></g:link></td>
