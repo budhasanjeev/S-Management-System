@@ -6,6 +6,10 @@ class News {
     String content
     String photo
 
+    static mapping = {
+        content type: 'text'
+    }
+
     static constraints = {
     }
 }
