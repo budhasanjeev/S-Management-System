@@ -80,8 +80,9 @@
 
                        <div>
                            <ul>
-                              <g:link controller="news" action="readNews" params="[newsId:news.id]"><li style="left: 60%;background-color: transparent;top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#read-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></g:link></li>
-                               <g:link controller="news" action="edit" params="[id:news.id]"> <li style="left: 80%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Edit</button></g:link></li>
+                              <g:link controller="news" action="readNews" params="[newsId:news.id]"><li style="left: 50%;background-color: transparent;top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#read-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Read</button></g:link></li>
+                               <g:link controller="news" action="edit" params="[id:news.id]"> <li style="left: 30%; top: 7%; z-index: 1000;"><button class="btn news-button" data-toggle="modal" data-target="#edit-news-model"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;&nbsp;Edit</button></g:link></li>
+                               <g:link controller="news" action="delete" params="[id:news.id]"> <li style="left: 70%; top: 7%; z-index: 1000;"><button class="btn news-button"><span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;Delete</button></g:link></li>
                            </ul>
                        </div>
                        <a href= "${createLink(controller:'news', action:'getNewsImage', params: [fileName:news.photo])}">
@@ -90,6 +91,11 @@
                    </div>
            </div>
        </g:each>
+       <g:if test="${newsLists.size()<1}">
+           <div class="alert alert-info">
+               <p>no records found</p>
+           </div>
+       </g:if>
     </div>
 
 <script>
