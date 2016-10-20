@@ -11,26 +11,28 @@ class MinuteService {
     def imageUploadService
     def minuteService
 
-  def minuteUpload(params)
-  {
-      // uploading minute doc
-      CommonsMultipartFile  minuteDocx =  params.myFile
-      final String minuteDocs = minuteDocx.getOriginalFilename()
-      params.minuteDoc = minuteDocs
+    /*this action upload minute*/
+    def minuteUpload(params)
+    {
+        // uploading minute doc
+        CommonsMultipartFile  minuteDocx =  params.myFile
+        final String minuteDocs = minuteDocx.getOriginalFilename()
+        params.minuteDoc = minuteDocs
 
-      def minutes = new Minute(params)
+        def minutes = new Minute(params)
 
-      imageUploadService.uploadMinuteDoc(params)
+        imageUploadService.uploadMinuteDoc(params)
 
-      if(minutes.save(flush: true,failOnError: true)){
+        if(minutes.save(flush: true,failOnError: true)){
 
-          return true
-      }
-      else {
-          return false
-      }
-  }
+            return true
+        }
+        else {
+            return false
+        }
+    }
 
+    /*this action update minute*/
     def minuteUpdate(params){
 
         println("=="+params)

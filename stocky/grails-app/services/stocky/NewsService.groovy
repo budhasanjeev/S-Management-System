@@ -8,6 +8,7 @@ class NewsService {
 
     def documentService
 
+/*this action saves new entry for news*/
     def newsSave(params) {
 
         CommonsMultipartFile file = params.myFile
@@ -28,6 +29,7 @@ class NewsService {
 
     }
 
+    /*this action updates news with id provided*/
     def newsUpdate(params){
 
         CommonsMultipartFile file = params.myFile

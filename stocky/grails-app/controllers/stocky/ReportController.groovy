@@ -13,6 +13,7 @@ class ReportController {
 
     }
 
+    /*this action gets executive summary*/
     def executiveSummary() {
 
         def tableType
@@ -20,11 +21,10 @@ class ReportController {
         if (params.reportType == 'individual') {
             tableType = "individual"
         } else if (params.reportType == 'consolidated') {
-
             tableType = 'consolidated'
         }
 
-        def shareHolderList = UserRole.findAllByRole(Role.findByAuthority('ROLE_SHAREHOLDER'));
+        def shareHolderList = UserRole.findAllByRole(Role.findByAuthority('ROLE_SHAREHOLDER')); /*gets all entries with shareholder role from userRole*/
 
         def shareHolderLists = []
         def additionalInfoLists = []
@@ -65,6 +65,7 @@ class ReportController {
         render(view: 'executiveSummary', model: [userLists: shareHolderLists, additionalInfoLists: additionalInfoLists, shareInfoLists: shareInfoLists, tableTypes: tableType, consolidatedList: shareInfoListsC])
     }
 
+    /*generate report*/
     def generateReport() {
 
         println params.list('reportField')
@@ -113,6 +114,7 @@ class ReportController {
     }
 
 
+    /*this generate report for all*/
     def generateAll(){
 
         println("=="+params)

@@ -7,6 +7,7 @@ class ShareValueController {
 def shareValueService
     def index() {}
 
+    /*this action saves new entry into shareValue table*/
     def save(){
         println ("="+params)
 

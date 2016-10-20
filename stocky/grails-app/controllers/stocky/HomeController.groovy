@@ -9,8 +9,9 @@ class HomeController {
     def springSecurityService
 
     def index() {
-        def changeDesign = ChangeDesign.first();
+        def changeDesign = ChangeDesign.first(); /*gets latest design entries*/
 
+        /*saves design parameters in session object*/
         session.setAttribute("logo",changeDesign.fileName)
         session.setAttribute("menu_color",changeDesign.menuColor)
         session.setAttribute("text_color",changeDesign.textColor)
@@ -19,8 +20,10 @@ class HomeController {
         session.setAttribute("footer_color",changeDesign.footerColor)
         session.setAttribute("footer_text_color",changeDesign.footerTextColor)
 
+        /*checks for authorization parameters after successful login*/
         if(springSecurityService.isLoggedIn()){
 
+            /*user has Admin role*/
             if(SpringSecurityUtils.ifAllGranted("ROLE_ADMIN")){
 
                 def shareValue = ShareValue.list([max: 1,sort: "createdDate",order: "desc"]);
@@ -37,6 +40,7 @@ class HomeController {
                 session.user = springSecurityService.getCurrentUser()
                 render(view: '/adminView/admin-landing',model: [role:"SHAREHOLDER",shareValue:shareValue.shareValue.join(),authorizedCapitalValue:authorizedCapitalValue.authorizedCapitalValue.join(),issuedCapitalValue:issuedCapitalValue.issuedCapitalValue.join(),paidCapitalValue:paidCapitalValue.paidCapitalValue.join(),shareholderLists:userLists])
             }
+            /*user with shareholder role*/
             if (SpringSecurityUtils.ifAllGranted("ROLE_SHAREHOLDER")){
 
                 User currentLoggedInUser = springSecurityService.getCurrentUser();
@@ -49,15 +53,18 @@ class HomeController {
 
                 render(view: '/shareholder/shareholderView',model: [share:share,authorizedCapitalValue:authorizedCapitalValue.authorizedCapitalValue.join(),issuedCapitalValue:issuedCapitalValue.issuedCapitalValue.join(),paidCapitalValue:paidCapitalValue.paidCapitalValue.join(),shareValue: shareValue.shareValue.join(),userInfo:currentLoggedInUser,additional:shareHolder])
             }
+            /*user with employee role*/
             if (SpringSecurityUtils.ifAllGranted("ROLE_EMPLOYEE")){
 
                 redirect(controller: 'employee',action: 'index')
             }
+            /*user with executive role*/
             if (SpringSecurityUtils.ifAllGranted("ROLE_EXECUTIVE")){
 
                 redirect(controller: 'executive',action: 'executiveLandingPage')
             }
         }
+            /* if user is not logged in*/
         else{
 
             def config = SpringSecurityUtils.securityConfig
@@ -70,6 +77,7 @@ class HomeController {
 
     }
 
+   /*
     def investors(){
         def userList = UserRole.findAllByRole(Role.findByAuthority('ROLE_SHAREHOLDER'))
         def userLists=[]
@@ -79,16 +87,19 @@ class HomeController {
 
         }
         render (view: '/landing-page-shareholder',model:[userList:userLists])
-    }
+    }*/
 
+    /*rendering event*/
     def event(){
         render (view: '/event')
     }
 
+    /*rendering form*/
     def form(){
         render (view: '/event')
     }
 
+    /*rendering news feed*/
     def news(){
 
         def newsList = News.findAll()
@@ -96,15 +107,18 @@ class HomeController {
         render (view: '/news',model: [newsLists:newsList])
     }
 
+    /*rendering gallery*/
     def gallery(){
         render (view: '/gallery')
     }
 
+    /*rendering shareholders*/
     def shareholder(){
         render (view: '/shareholder')
     }
 
-    def addUser(){
+
+    /*def addUser(){
         render (view: '/adminView/user/add-user')
     }
 
@@ -119,6 +133,6 @@ class HomeController {
 
     def changeDesign(){
         render (view: '/adminView/change-page-design')
-    }
+    }*/
 
 }

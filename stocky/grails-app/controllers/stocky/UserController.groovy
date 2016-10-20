@@ -10,18 +10,21 @@ class UserController {
     def userService
     def springSecurityService
 
+    /*this action gets user entry with id provided*/
     def editSave(){
         String user_id = params.user_id
         def user = User.findById(params.user_id as long)
         render view: '/adminView/user/editSave', model:[user:user]
     }
 
+    /*this action retrieves all entries from User*/
     def index() {
 
         def listUsers = User.list();
         render(view: '/shareholder',model: [userList :listUsers])
     }
 
+    /*this action saves user*/
     def save() {
         User user
 
@@ -50,6 +53,7 @@ class UserController {
 
     }
 
+    /*this action retrieves user entry with id provided*/
     def edit(){
 
         def user = User.findById(params.id as long)
@@ -58,6 +62,7 @@ class UserController {
 
     }
 
+    /*this action updates user */
     def update(){
 
         def role = params.roles
@@ -81,6 +86,7 @@ class UserController {
 
     }
 
+    /*this action deletes user*/
     def delete(){
 
         def role = userService.deleteUser(params)
@@ -92,8 +98,7 @@ class UserController {
         }
     }
 
-
-
+    /*this action checks email for duplicate*/
     def checkMail(){
 
         def userList = User.list()
@@ -109,7 +114,7 @@ class UserController {
         return render ([messageType:"fail"] as JSON)
     }
 
-
+    /*this action checks username for duplicate*/
     def checkUserName(){
 
         def userList = User.list()
@@ -127,6 +132,7 @@ class UserController {
 
     }
 
+    /*this action gets user Information (full name, link, render)*/
     def getUserInfo(){
 
         def user = User.findById(params.id as long);
@@ -136,6 +142,7 @@ class UserController {
 
     }
 
+    /*this actions filters user*/
     def filterUser(){
 
         def userLists = userService.listUsers(params)
@@ -150,6 +157,7 @@ class UserController {
 
     }
 
+    /*this action retrieves image*/
     def getImage(){
         String fileName = params.fileName
         File sourceImage = new File("upload/profilePicture/"+fileName.replaceAll('"',""))
@@ -164,6 +172,7 @@ class UserController {
 
     }
 
+    /*this action gets minute*/
     def getMinute(){
         String fileName = params.fileName
         println fileName;
@@ -174,6 +183,7 @@ class UserController {
 
     }
 
+    /*this action gets citizenship*/
     def getCitizenShip(){
         String fileName = params.fileName
         File sourceImage = new File("upload/citizenShip/"+fileName)
@@ -183,6 +193,7 @@ class UserController {
     }
 
 
+    /*this action gets signature*/
     def getSignature(){
         String fileName = params.fileName
         File sourceImage = new File("upload/signature/"+fileName)
@@ -191,14 +202,17 @@ class UserController {
         render file: inputStream,contentType: '*/*'
     }
 
+    /*this action renders nepali form*/
     def createNepali(){
         render(view: '/adminView/user/add-userNepali')
     }
 
+    /*this action displays documents*/
     def displayDocument(){
         render (view: 'admin-landing.gsp',model: [id:user.id])
     }
 
+    /*this action gets certificate*/
     def getCertificate(){
         String fileName = params.fileName
         File sourceImage = new File("upload/shareCertificate/"+fileName)
@@ -207,9 +221,7 @@ class UserController {
         render file: inputStream,contentType: '*/*'
     }
 
-
-
-
+    /*this action saves password*/
     def changePassword(){
        // println params
 

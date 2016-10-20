@@ -7,24 +7,27 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 class DocService {
 
     def documentService
-   def documentUpload(params){
-       CommonsMultipartFile  documentDoc =  params.myFile
-       final String docs = documentDoc.getOriginalFilename()
-       params.document = docs
 
-       def document = new Document(params)
+    /*this action upload document*/
+    def documentUpload(params){
+        CommonsMultipartFile  documentDoc =  params.myFile
+        final String docs = documentDoc.getOriginalFilename()
+        params.document = docs
 
-       documentService.documentUpload(params)
+        def document = new Document(params)
 
-       if(document.save(flush: true,failOnError: true)){
+        documentService.documentUpload(params)
 
-           return true
-       }
-       else {
-           return false
-       }
-   }
+        if(document.save(flush: true,failOnError: true)){
 
+            return true
+        }
+        else {
+            return false
+        }
+    }
+
+    /*this action update document file*/
     def documentUpdate(params){
         CommonsMultipartFile file = params.myFile
         String imageName = file.getOriginalFilename()

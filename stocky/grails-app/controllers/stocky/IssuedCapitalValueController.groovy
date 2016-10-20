@@ -6,10 +6,11 @@ import grails.plugin.springsecurity.annotation.Secured
 class IssuedCapitalValueController {
 
     def issuedCapitalValueService
+
     def index() {}
 
+    /*this action saves issuedCapital values*/
     def save(){
-        println ("="+params)
         if(issuedCapitalValueService.issuedCapitalValueSave(params)){
 
              redirect(controller: 'home',action: 'index')

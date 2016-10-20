@@ -8,6 +8,7 @@ class MailController {
 
     def index() { }
 
+    /*this action sends email*/
     def sendMail(){
         println(params)
 

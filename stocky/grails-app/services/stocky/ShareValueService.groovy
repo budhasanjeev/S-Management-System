@@ -5,6 +5,7 @@ import grails.transaction.Transactional
 @Transactional
 class ShareValueService {
 
+    /*this action saves share values*/
     def shareValueSave(params){
 
         def shareValue = new ShareValue(params)

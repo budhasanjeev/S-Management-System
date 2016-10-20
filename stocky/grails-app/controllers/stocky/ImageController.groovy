@@ -3,6 +3,7 @@ package stocky
 
 
 class ImageController {
+
   private static final okcontents = ['image/png', 'image/jpeg', 'image/gif']
     /*  def uploadImage(){
 
@@ -15,7 +16,9 @@ class ImageController {
         CommonsMultipartFile file = params.list("")?.getAt(0)
         user.image = file?.bytes*/
     def imageUploadService;
-    def saveImage(){
+
+    /*this action saves image*/
+    /*def saveImage(){
 
         String fileUploaded = imageUploadService.uploadFile()
         if( fileUploaded ){
@@ -24,7 +27,7 @@ class ImageController {
         }
 
     }
-
+*/
 
     def index() {}
 }

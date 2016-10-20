@@ -8,11 +8,13 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 class FormController {
     def formService
 
+    /*this action gets all entries from Form table*/
     def index() {
         def formList = Form.findAll()
         render (view: '/adminView/form/adminForm', model:[formList:formList])
     }
 
+    /*this action saves new entry into the Form table*/
     def save(){
         CommonsMultipartFile formFile = request.getFile('formDoc')
         params.myFile = formFile
@@ -25,6 +27,7 @@ class FormController {
         }
     }
 
+    /*this action get form image from form folder with fileName provided*/
     def getFormImage(){
         String fileName = params.fileName
         println fileName;
@@ -34,6 +37,7 @@ class FormController {
         render file: inputStream, contentType:  '*/*'
     }
 
+    /*this action downloads form*/
     def downloadForm(){
 
         String fileName = params.form

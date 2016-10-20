@@ -10,6 +10,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 class ImageUploadService {
     /* def user = User.findById(params.user_id as long)*/
 
+    /*this action upload profile picture*/
     def uploadProfilePicture(params) {
 
         CommonsMultipartFile image = params.myFile
@@ -23,6 +24,7 @@ class ImageUploadService {
         fos.close()
     }
 
+    /*this action upload signature*/
     def uploadSignature(params){
         CommonsMultipartFile signature = params.myFile
         final String signature_name = signature.getOriginalFilename()
@@ -32,6 +34,7 @@ class ImageUploadService {
         fos.close()
     }
 
+    /*this action upload share certificate*/
     def uploadShareCertificate(params){
         CommonsMultipartFile shareCertificate = params.myFile1
         final String shareCertificate_name = shareCertificate.getOriginalFilename()
@@ -41,6 +44,7 @@ class ImageUploadService {
         fos.close()
     }
 
+    /*this action upload citizenship*/
     def uploadCitizenShip(params){
         CommonsMultipartFile citizenShip = params.myFile2
         final String citizenPhoto_name = citizenShip.getOriginalFilename()
@@ -50,6 +54,7 @@ class ImageUploadService {
         fos.close()
     }
 
+    /*this action upload minute document*/
     def uploadMinuteDoc(params){
         CommonsMultipartFile minuteDoc = params.myFile
         final String minute_doc = minuteDoc.getOriginalFilename()
@@ -59,6 +64,7 @@ class ImageUploadService {
         fos.close()
     }
 
+    /*this action uploads logo*/
     def uploadLogo(params) {
         CommonsMultipartFile image = params.myFile
         final String name = image.getOriginalFilename()
@@ -68,6 +74,7 @@ class ImageUploadService {
         fos.close()
     }
 
+    /*this action delete file*/
     def deleteFile(photoList){
         if (photoList[0].equals("ROLE_ADMIN") || photoList[0].equals("ROLE_EXECUTIVE")){
             def userImage = new File("upload/profilePicture/"+photoList[1])

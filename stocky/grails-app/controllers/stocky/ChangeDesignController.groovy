@@ -13,6 +13,7 @@ class ChangeDesignController {
 
     }
 
+    /*this action saves the change in design parameters*/
     def save(){
         ChangeDesign changeDesign
 
@@ -28,7 +29,7 @@ class ChangeDesignController {
         }
     }
 
-
+    /*this action gets Logo*/
     def getLogo(){
         String fileName = params.fileName
         File sourceImage = new File("upload/logo/"+fileName)

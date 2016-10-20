@@ -7,11 +7,14 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 @Secured(['permitAll'])
 class DocumentController {
     def docService
+
+    /*this action retrieves all entries in document table*/
     def index() {
         def docList = Document.findAll()
         render (view: '/adminView/document/document', model:[docList:docList])
     }
 
+    /*this action saves news entry in document table*/
     def save(){
         CommonsMultipartFile document = request.getFile('document')
         params.myFile = document
@@ -23,6 +26,7 @@ class DocumentController {
         }
     }
 
+    /*this action gets image for document*/
     def getDocumentImage(){
         String fileName = params.fileName
         println fileName;
@@ -32,11 +36,13 @@ class DocumentController {
         render file: inputStream, contentType:  '*/*'
     }
 
+    /*this action retrieves entry from document table with id provided*/
     def edit(){
         def document =Document.findById(params.document as Long)
         render(view:'/adminView/document/edit',model:[document:document])
     }
 
+    /*this action updates entry in document table with id provided*/
     def update(){
         CommonsMultipartFile documentFile = request.getFile('document')
         params.myFile = documentFile
@@ -49,6 +55,7 @@ class DocumentController {
         }
     }
 
+    /*this action downloads document*/
     def downloadDocument(){
         String fileName = params.document
         println(fileName)
@@ -68,6 +75,7 @@ class DocumentController {
         }
     }
 
+    /*this action deletes entry from document table*/
     def delete(){
         def document = Document.findById(params.document as Long)
         String documentImage = document.document

@@ -8,25 +8,26 @@ class FormService {
 
     def documentService
 
-   def formUpload(params){
+    /*this action upload form*/
+    def formUpload(params){
 
-       CommonsMultipartFile  formDocument =  params.myFile
-       final String formDocs = formDocument.getOriginalFilename()
-       params.formDoc = formDocs
+        CommonsMultipartFile  formDocument =  params.myFile
+        final String formDocs = formDocument.getOriginalFilename()
+        params.formDoc = formDocs
 
-       def form = new Form(params)
+        def form = new Form(params)
 
         form.date = new Date()
 
-       documentService.formUpload(params)
+        documentService.formUpload(params)
 
-       if(form.save(flush: true,failOnError: true)){
+        if(form.save(flush: true,failOnError: true)){
 
-           return true
-       }
-       else {
-           return false
-       }
+            return true
+        }
+        else {
+            return false
+        }
 
-   }
+    }
 }

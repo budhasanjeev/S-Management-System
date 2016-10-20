@@ -6,6 +6,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 @Transactional
 class DocumentService {
 
+    /*this action uploads document*/
     def documentUpload(params){
         CommonsMultipartFile image = params.myFile
         def fos= new FileOutputStream(new File("upload/document/"+ params.document))
@@ -16,6 +17,7 @@ class DocumentService {
 
     }
 
+    /*this action upload form*/
     def formUpload(params){
         CommonsMultipartFile image = params.myFile
         def fos= new FileOutputStream(new File("upload/form/"+ params.formDoc))
@@ -25,6 +27,7 @@ class DocumentService {
         fos.close()
     }
 
+    /*this action upload news*/
     def newsUpload(params){
         CommonsMultipartFile image = params.myFile
         def fos= new FileOutputStream(new File("upload/news/"+ params.photo))

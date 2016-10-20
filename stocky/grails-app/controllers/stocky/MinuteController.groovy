@@ -7,11 +7,13 @@ class MinuteController {
 
 def minuteService;
 
+    /*this action retrieves all entries form minute table*/
     def index(){
         def minuteList = Minute.list();
         render(view: '/adminView/minute/addMinute',model: [minutesList:minuteList])
     }
 
+    /*this action saves new entry into minute table*/
     def save(){
 
         CommonsMultipartFile minuteFile = request.getFile('minuteDoc')
@@ -27,6 +29,7 @@ def minuteService;
 
     }
 
+    /*this action get entry from minute table with id provided for editing*/
     def edit(){
         println params
 
@@ -35,6 +38,7 @@ def minuteService;
 
     }
 
+    /*this action updates entry in minute table*/
     def update(){
 
         CommonsMultipartFile minuteFile = request.getFile('minuteDoc')
@@ -48,6 +52,7 @@ def minuteService;
         }
     }
 
+    /*this action deletes minute entry*/
     def delete()
     {
         def minuteInstance = Minute.findById(params.id as long)

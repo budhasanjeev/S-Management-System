@@ -8,8 +8,8 @@ class ShareService {
 
     def imageUploadService
 
+    /*this action saves share*/
     def shareSave(params){
-
 
         CommonsMultipartFile shareCertificate = params.myFile1
         final String shareCertificate_name = shareCertificate.getOriginalFilename().toString()
@@ -28,6 +28,7 @@ class ShareService {
         }
     }
 
+    /*this action updates share*/
     def shareUpdate(params){
 
         CommonsMultipartFile shareCertificate = params.myFile1

@@ -8,6 +8,7 @@ class ChangeLogoService {
 
     def imageUploadService
 
+    /*this action saves change design*/
     def changeSave(params){
 
         CommonsMultipartFile image = params.myFile
@@ -31,6 +32,7 @@ class ChangeLogoService {
         }
     }
 
+    /*this action updates change in design*/
     def updateChangeDesign(def result){
         def changeDesign = ChangeDesign.first()
         changeDesign.properties = result

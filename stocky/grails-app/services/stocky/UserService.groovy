@@ -10,6 +10,7 @@ class UserService  {
     def mailService
     def imageUploadService
 
+    /*this action saves user*/
     def userSave(params){
 
         params.password = "#Dwit123!"
@@ -42,6 +43,7 @@ class UserService  {
         }
     }
 
+    /*This action deletes user*/
     def deleteUser(params){
 
         def photoList=[]
@@ -68,6 +70,7 @@ class UserService  {
         return role
     }
 
+    /*This action updates user*/
     def updateUser(params){
 
         def user =  User.get(params.userId as long)
@@ -77,6 +80,7 @@ class UserService  {
         return role
     }
 
+    /*This action saves user from nepali form*/
     def userSaveNepali(params) {
 
         params.password = "#Dwit123!"
@@ -101,6 +105,7 @@ class UserService  {
 
     }
 
+    /*This action lists user with id provided*/
     def listUsers(params){
 
         String role = params.id

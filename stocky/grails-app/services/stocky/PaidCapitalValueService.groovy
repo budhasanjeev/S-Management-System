@@ -5,6 +5,7 @@ import grails.transaction.Transactional
 @Transactional
 class PaidCapitalValueService {
 
+    /*this action save entry for paidUpCapital value*/
     def paidCapitalValueSave(params){
         def paidCapitalValue= new PaidCapitalValue(params);
 

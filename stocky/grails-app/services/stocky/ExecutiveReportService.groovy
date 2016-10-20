@@ -22,6 +22,7 @@ class ExecutiveReportService {
     StyleBuilder titleStyle = stl.style(boldCenteredStyle).setVerticalAlignment(VerticalAlignment.MIDDLE)
     StyleBuilder fontStyle = stl.style().setFontSize(7)
 
+    /*this action generates Report*/
     def generateReportI(params){
 
         SimpleDateFormat format = new SimpleDateFormat()
@@ -58,6 +59,7 @@ class ExecutiveReportService {
         return path
     }
 
+    /*this action generate consolidated report*/
     def generateReportC(params){
 
         SimpleDateFormat format = new SimpleDateFormat()
@@ -92,6 +94,7 @@ class ExecutiveReportService {
         return path
     }
 
+    /*this action generates datasource for consolidated report*/
     private JRDataSource dataSourceConsolidated(params){
 
         def shareHolderList = UserRole.findAllByRole(Role.findByAuthority('ROLE_SHAREHOLDER'));
@@ -144,6 +147,8 @@ class ExecutiveReportService {
         return dataS;
 
     }
+
+    /*this action generates datasource for individual report*/
     private JRDataSource dataSourceIndividual(params){
 
         def shareHolderList = UserRole.findAllByRole(Role.findByAuthority('ROLE_SHAREHOLDER'));

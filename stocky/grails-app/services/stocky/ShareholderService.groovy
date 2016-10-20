@@ -9,6 +9,7 @@ class ShareholderService {
     def imageUploadService
     def shareService
 
+    /*this action save shareholder value*/
     def shareholderSave(params) {
         /*getting signature image name*/
 
@@ -44,6 +45,7 @@ class ShareholderService {
         }
     }
 
+    /*this action saves additional value for user*/
     def updateAdditionalUser(params){
 
         CommonsMultipartFile signature = params.myFile

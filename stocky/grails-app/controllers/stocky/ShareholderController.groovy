@@ -6,7 +6,7 @@ import org.springframework.web.multipart.commons.CommonsMultipartFile
 class ShareholderController {
     def shareholderService;
 
-
+/*this action saves shareholder*/
     def save() {
 
         CommonsMultipartFile signature = request.getFile('signature')
@@ -25,6 +25,7 @@ class ShareholderController {
         }
     }
 
+    /*this action saves additional update*/
     def additionalUpdate(){
 
         CommonsMultipartFile signature = request.getFile('signature')
@@ -39,6 +40,7 @@ class ShareholderController {
 
     }
 
+    /*this action retrieves all entries from User, Share, Shareholder*/
     def index() {
 
         def user = User.findById(params.user_id as long)
@@ -55,22 +57,26 @@ class ShareholderController {
 
     }
 
+    /*this action gets all entries from minute table*/
     def minute(){
         def minuteInstanceList = Minute.findAll()
         render (view: '/shareholder/shareholderMinute',model: [minuteInstanceList:minuteInstanceList])
     }
 
+    /*this action gets all entries from form table*/
     def form(){
         def formInstanceList = Form.findAll()
         render (view: '/shareholder/shareholderForm',model: [formInstanceList:formInstanceList])
     }
 
+    /*this action gets all entries from document table*/
     def document(){
         def documentInstanceList = Document.findAll()
 
         render(view: '/shareholder/shareholderDocument',model: [documentInstanceList:documentInstanceList ])
     }
 
+    /*this action gets all entries from news table*/
     def news(){
         def newsInstanceList = News.findAll()
 

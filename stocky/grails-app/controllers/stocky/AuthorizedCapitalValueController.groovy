@@ -8,14 +8,15 @@ class AuthorizedCapitalValueController {
 
     def index() {}
 
+    /*Saves the authorized capital value*/
     def save(){
-        println ("="+params)
+
         if(authorizedCapitalValueService.authorizedCapitalValueSave(params)){
 
-            redirect(controller: 'home',action: 'index')
+            redirect(controller: 'home',action: 'index') /*redirects to home controller*/
         }
         else {
-            render " failed"
+            render " failed" /*renders failed message*/
         }
     }
 }

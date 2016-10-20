@@ -6,6 +6,7 @@ import grails.plugin.springsecurity.annotation.Secured
 
 class EmployeeController {
 
+    /*this action retrieves user with shareholder role and redirects in employee landing page*/
     def index() {
         def userLists = [];
         def shareholderLists = []
